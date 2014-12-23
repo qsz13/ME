@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Artcore - Blog Masonry</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        
+
+        <link rel="stylesheet" href="../../../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../../../static/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../static/css/animate.css">
+        <link rel="stylesheet" href="../../../static/css/templatemo-misc.css">
+        <link rel="stylesheet" href="../../../static/css/templatemo-style.css">
+        <link rel="stylesheet" href="../../common-files/css/icon-font.css">
+        <link rel="stylesheet" href="../../flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../../flat-ui/css/flat-ui.css">
+        <link rel="stylesheet" href="../../../static/css/style.css">
+        <link rel="stylesheet" href="../../../static/css/main.css">
+        <script src="../../../static/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="#/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        <div id="search-overlay">
+            <a href="#search-overlay" class="close-search"><i class="fa fa-times-circle"></i></a>
+            <div class="search-form-holder">
+                <h2>输入您要查找的内容并按回车</h2>
+                <form id="search-form" action="#">
+                    <input type="search" name="s" placeholder="" autocomplete="off" />
+                 </form>
+            </div>
+        </div><!-- #search-overlay -->
+        <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="inviteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">邀请</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="时间">
+                            </div>
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="主题">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">发送</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">删除好友</h4>
+                      </div>
+                      <div class="modal-body">
+                        是否删除？
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">删除</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">搜索好友</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="好友姓名">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">添加</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="page-wrapper">
+            <section id="pageloader">
+                <div class="loader-item fa fa-spin colored-border"></div>
+            </section> <!-- /#pageloader -->
+            
+            <header class="header-11">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar col-sm-12" role="navigation">
+                            
+                            
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle"></button>
+                                <a class="brand" href="#"><img src="../../../static/img/logo@2x.png" width="50" height="50" alt=""> “我” </a>
+                            </div>
+                            <div class="collapse navbar-collapse pull-right">      
+                                <ul class="nav pull-left">
+                                    <li><a id="search-icon" class="fa fa-search" href="#search-overlay"></a></li>
+                                    <li><a href="index.html">主页</a></li>
+                                    <li><a class="active" href="#">好友</a></li>
+                                    <li><a href="blog.html">日志</a></li>
+                                    <li><a href="account.html">账户</a></li>
+                                </ul>
+                                <form class="navbar-form pull-left">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                                      登录
+                                    </button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-background"></div>
+            </header>
+
+        <!-- project-3 -->
+            <section class="projects-3">
+                <div class="container">
+                    <h3>We love what we do.
+                    <br>
+                    This is features of our products</h3>
+
+                    <div class="projects">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="../../../static/img/img-2.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> 张睿</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        deadGay
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="../../../static/img/img-3.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> 邱尚昭</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        我是逗比
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="../../../static/img/img-4.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        阿三坎大哈速度
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(../../../static/img/img-5.png);"><img alt="" src="../../../static/img/img-5.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        Impressionist
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(../../../static/img/img-6.png);"><img alt="" src="../../../static/img/img-6.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        Pandora
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(../../../static/img/img-7.png);"><img alt="" src="../../../static/img/img-7.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        添加好友
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#add">
+                                      添加好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.container-->
+            </section>
+        
+            
+            
+
+        </div>
+        
+        <script src="../../common-files/js/jquery-1.10.2.min.js"></script>
+        <script src="../../flat-ui/js/bootstrap.min.js"></script>
+        <script src="../../common-files/js/modernizr.custom.js"></script>
+        <script src="../../common-files/js/startup-kit.js"></script>
+        <script src="../../../static/js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="../../../static/js/plugins.js"></script>
+        <script src="../../../static/js/main.js"></script>
+        
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('.loader-item').fadeOut(); // will first fade out the loading animation
+                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+            //]]>
+        </script>
+        
+    </body>
+</html>

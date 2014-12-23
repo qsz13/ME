@@ -59,11 +59,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
 
 ]
 
-
-#PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, "templates"),)
-
-STATIC_URL = '/static/'
 
 ROOT_URLCONF = 'ME.urls'
 
@@ -99,5 +95,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
 
 ACCOUNT_ACTIVATION_DAYS = 3

@@ -40,6 +40,7 @@ class Account(models.Model):
         default=settings.LANGUAGE_CODE
     )
 
+
     @classmethod
     def for_request(cls, request):
         if request.user.is_authenticated():
