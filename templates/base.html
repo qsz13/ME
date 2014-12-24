@@ -18,12 +18,15 @@
         <link rel="stylesheet" href="/static/css/animate.css">
         <link rel="stylesheet" href="/static/css/templatemo-misc.css">
         <link rel="stylesheet" href="/static/css/templatemo-style.css">
-        <link rel="stylesheet" href="/static//common-files/css/icon-font.css">
-        <link rel="stylesheet" href="/static//flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="/static//flat-ui/css/flat-ui.css">
+        <link rel="stylesheet" href="/static/common-files/css/icon-font.css">
+        <link rel="stylesheet" href="/static/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/flat-ui/css/flat-ui.css">
         <link rel="stylesheet" href="/static/css/style.css">
         <link rel="stylesheet" href="/static/css/main.css">
         <script src="/static/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        {% block static %}
+        {% endblock %}
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -38,50 +41,8 @@
                  </form>
             </div>
         </div><!-- #search-overlay -->
-        <div class="modal fade" id="addAccount" tabindex="-1" role="dialog" aria-labelledby="inviteLabel" aria-hidden="true">
-          <div class="modal-dialog">
-                <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="inviteLabel">注册子账户</h4>
-                      </div>
-                      <div class="modal-body">
-                            <div class="form-group">
-                                 <input class="form-control" type="text" placeholder="姓名">
-                            </div>
-                            <div class="form-group">
-                                 <input type="password" class="form-control" placeholder="密码">
-                            </div>
-                            <div class="form-group">
-                                 <input type="password" class="form-control" placeholder="确认">
-                            </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="button" class="btn btn-primary">注册</button>
-                      </div>
-                </div>
-          </div>
-        </div>
-        <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
-          <div class="modal-dialog">
-                <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="inviteLabel">删除帐户</h4>
-                      </div>
-                      <div class="modal-body">
-                        是否删除？
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="button" class="btn btn-primary">删除</button>
-                      </div>
-                </div>
-          </div>
-        </div>
-        {%  block body%}
-        {%  endblock%}
+
+
         <div class="page-wrapper">
             <section id="pageloader">
                 <div class="loader-item fa fa-spin colored-border"></div>
@@ -98,19 +59,22 @@
                                 <a class="brand" href="#"><img src="/static/img/logo@2x.png" width="50" height="50" alt=""> “我” </a>
                             </div>
                             <div class="collapse navbar-collapse pull-right">
+                                 {% if user.is_authenticated %}
                                 <ul class="nav pull-left">
                                     <li><a id="search-icon" class="fa fa-search" href="#search-overlay"></a></li>
-                                    <li><a href="index.html">主页</a></li>
+                                    <li><a href="/">主页</a></li>
                                     <li><a href="friends">好友</a></li>
                                     <li><a href="blog.html">日志</a></li>
-                                    <li><a href="#" class="active">账户</a></li>
+                                    <li><a href="/account" class="active">账户</a></li>
                                 </ul>
+                            {% endif %}
+                                {% if not user.is_authenticated %}
                                 <form class="navbar-form pull-left">
                                     <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
                                       登录
                                     </button>
                                 </form>
-
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -134,7 +98,12 @@
         <script src="{% static "js/plugins.js"%}"></script>
         <script src="{% static "js/main.js"%}"></script>
 
-        <!-- Preloader -->
+
+
+    </body>
+
+
+      <!-- Preloader -->
         <script type="text/javascript">
             //<![CDATA[
             $(window).load(function() { // makes sure the whole site is loaded
@@ -144,6 +113,4 @@
             })
             //]]>
         </script>
-
-    </body>
 </html>

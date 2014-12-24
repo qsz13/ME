@@ -1,9 +1,13 @@
 from django.http import HttpResponse
-from django.shortcuts import render, render_to_response
-from django.template import loader, RequestContext
-from django.views.generic import TemplateView
+from django.shortcuts import render
+from django.http import HttpResponseRedirect
 
 
 def home(request):
 
-    return HttpResponse(render(request, 'index.html'))
+    if request.user.is_authenticated():
+        # return HttpResponseRedirect("/login/")
+        return HttpResponse(render(request, 'blog.html'))
+
+    else:
+        return HttpResponse(render(request, 'index.html'))

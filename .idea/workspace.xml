@@ -2,62 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd0c7dd-bc17-4662-879b-4cb36b78886b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/email-auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/form.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/auth_backends.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/callbacks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/context_processors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/decorators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/ar/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/ar/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/de/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/de/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/es/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/es/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/fa_IR/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/fa_IR/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/fr/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/fr/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/it/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/it/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/nl/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/nl/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pl/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pl/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pl_PL/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pl_PL/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/ru/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/ru/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/zh_CN/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/zh_CN/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/zh_TW/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/locale/zh_TW/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/management/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/management/commands/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/management/commands/expunge_deleted.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/managers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/middleware.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/mixins.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/signals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/templatetags/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/templatetags/account_tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/tests/templates/account/email/email_confirmation_message.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/tests/templates/account/email/email_confirmation_subject.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/tests/test_views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/account/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/meta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/templates/bootstrapform/field.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/templates/bootstrapform/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/templates/bootstrapform/formset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapform/templatetags/bootstrap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/_login_sidebar.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/_signup_sidebar.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/base.html" afterPath="" />
@@ -83,596 +38,19 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/settings.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/signup.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/old/account/account/signup_closed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/css/animations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/css/icon-font.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/css/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/css/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/css/jquery.bxslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/fonts/Startup-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/fonts/Startup-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/fonts/Startup-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/fonts/Startup-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Arrow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Banner@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Book@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Box1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Bulb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Calendar@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Camera@2x (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Camera@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Card@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Chat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Clipboard@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Compas@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Dude@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Earth@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Egg@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/File@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Games@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Gift-Box@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Girl@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Goal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Graph@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Infinity-Loop@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Key@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Letter-Symbol@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/MacBook-Pro@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Magic-Mouse@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Magic@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Mail@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Map@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Money@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Mortarboard@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Mountain@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Pencil@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Pensils@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Pocket@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Responsive1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Retina-Ready@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Search@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Settings@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Shield@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Spaceship@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Toilet-Paper@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Touch@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Trip-Bag@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Ubmrella@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Watches@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Wine@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/Yin-and-Yang@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/box@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/browser-iphone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/clock@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/demo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/iMac@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/iPad@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/iPhone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/infinity-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/logo-2@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/logo-red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/magic-wand@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-dark@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-17@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-21@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon-header-8@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/menu-icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/ps@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-down-mb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-down-mb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-up-mb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-up-mb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/quote-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/responsive@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/retina-ready-s@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/retina@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/rocket-big-grey-bg@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/rocket-big@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/rocket@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/time@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/icons/twitter@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Brazil_001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Brazil_002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Brazil_002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Comp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Hawaii_001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Hawaii_001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Hawaii_002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Italy_001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/Italy_001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/NY_001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/NY_001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/NY_002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/NY_002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content-large/sample-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/anthony.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/arrow-bl@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/arrow-br@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/arrow-tl@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/arrow-tr@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-2@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-3@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-4@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-5@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-6@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board-7@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/board@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/bread.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/browser-c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/documentation.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/icon-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/icons-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/img-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ipad@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/iphone-n@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/iphone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/landscape.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/line-l@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/line-r@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/map-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/map@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/next.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/prev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ps-wire-imac-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ps-wire-imac@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/sample-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-1-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-2-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-2@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-2@2xc-30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-3-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-3@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-4-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-4@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen-popup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/screen@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/thumbnail-crumbs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/thumbnail-hipstafood.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ticket-green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ticket-navy-bw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/content/ticket-navy@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/adrian-v-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/adrian-v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/edvard-k.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/oxana-n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/sergey-s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/tatiana-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/crew/vladimir-k.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/footer/logo-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/browser-iphone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/browser1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/browser@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/btn-play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/gw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/hexahedron@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/img-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/img-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/img-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/img-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/img-video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/ipad@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/iphone@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/logo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/header/ticket-clear@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/map.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/projects/img-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/projects/img-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/img/projects/img-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/froogaloop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.backgroundvideo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.bxslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.parallax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.scrollTo-1.4.3.1-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.sharrre.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.svg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/jquery.svganim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/page-transitions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/js/startup-kit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/flat-ui-free2.0.0-fix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/gallery.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/helper.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/icon-font.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/common-files/less/startup-kit_header.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/css/bootstrap-docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/css/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/bootstrap/js/holder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/css/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/css/flat-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/Flat-UI-Icons.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/Flat-UI-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/Flat-UI-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/Flat-UI-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/Flat-UI-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/flat-ui-icons-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/flat-ui-icons-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/flat-ui-icons-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/flat-ui-icons-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/icomoon-session.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bolditalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-bolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/fonts/lato/lato-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-author.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser-pic-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/html-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/logo-mask-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/logo-mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/demo/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/exaple-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/footer/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Book@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Calendar@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Chat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Clipboard@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Compas@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Gift-Box@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Infinity-Loop@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Mail@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Map@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Pensils@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Pocket@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Retina-Ready@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Toilet-Paper@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/Watches@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Clipboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Compas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Gift-Box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Infinity-Loop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Pensils.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Pocket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Retina-Ready.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Toilet-Paper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/png/Watches.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/clocks.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/compas.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/gift-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/paper-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/pencils.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/retina.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/icons/svg/toilet-paper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/login/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/login/imac-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/login/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/switch/mask-square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/switch/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/tile/ribbon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/tile/ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/done-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/done.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/search-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/todo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/todo/todo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/fullscreen-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/pause-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/play-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/volume-full-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/volume-full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/volume-off-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/images/video/volume-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/bootstrap-select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/bootstrap-switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/flatui-checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/flatui-radio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/icon-font-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery-2.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery.placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery.stacktable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery.tagsinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/js/typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/config.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/docs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/flat-ui.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/icon-font.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/caret.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/checkbox-and-radio.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/dropdown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/input-icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/input.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/local-fonts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/login.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/palette.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/progress.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/select.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/share.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/switch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/tagsinput.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/tile.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/todo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/typeahead.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/ui-slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/modules/video.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/spaces.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/flat-ui/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/ME_LOGO.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/ME_LOGO.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/blog-single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/friends.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/meV1/sample-03/writeBlog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/blog-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-blog/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/contact-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/contact-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/contact-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/contact-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/contact-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-contacts/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-16.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-17.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-18.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-19.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-20.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-21.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-22.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-23.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-24.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-25.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-26.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-27.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-28.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-29.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-30.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-31.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-32.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-33.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-34.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-35.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-36.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-37.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-38.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/content-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-content/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/crew-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/crew-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/crew-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/crew-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-crew/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/footer-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-footer/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-16.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-17.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-18.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-19.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-20.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-21.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-22.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-23.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/header-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/video/preview.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/video/preview.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-header/video/preview.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/price-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-price/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/project-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/project-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/project-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/project-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/project-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/ui-kit/ui-kit-projects/less/ui-kit-styles.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/_account_bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/_messages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/theme_bootstrap/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/theme_bootstrap/subnav_base.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/site_base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/500.html" afterPath="$PROJECT_DIR$/templates/500.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ME/settings.py" afterPath="$PROJECT_DIR$/ME/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ME/urls.py" afterPath="$PROJECT_DIR$/ME/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/urls.py" afterPath="$PROJECT_DIR$/account/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ME/views.py" afterPath="$PROJECT_DIR$/ME/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/views.py" afterPath="$PROJECT_DIR$/account/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ME.iws" />
@@ -699,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ME/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8453608" vertical-offset="1105" max-vertical-offset="1605">
-              <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1079" max-vertical-offset="1590">
+              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -712,11 +90,9 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ME/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -724,22 +100,10 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="660">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email-auth.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/email-auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -748,8 +112,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.416667" vertical-offset="719" max-vertical-offset="2610">
-              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="2070">
+              <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.375" vertical-offset="696" max-vertical-offset="1830">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -758,8 +132,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="e#25#67#0" expanded="true" />
               </folding>
@@ -767,23 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/form.py">
+      <file leaf-file-name="blog.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="e#26#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4113924" vertical-offset="0" max-vertical-offset="3120">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -810,7 +172,6 @@
         <option value="$PROJECT_DIR$/static/ui-kit/ui-kit-header/css/style.css" />
         <option value="$PROJECT_DIR$/static/ui-kit/ui-kit-header/css/ui-kit-styles.css" />
         <option value="$PROJECT_DIR$/static/flat-ui/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/ME/views.py" />
         <option value="$PROJECT_DIR$/templates/site_base.html" />
         <option value="$PROJECT_DIR$/project/meV1/sample-03/account.html" />
         <option value="$PROJECT_DIR$/templates/account/login.html" />
@@ -818,17 +179,20 @@
         <option value="$PROJECT_DIR$/old/account/account/signup.html" />
         <option value="$PROJECT_DIR$/account/models.py" />
         <option value="$PROJECT_DIR$/account/form.py" />
-        <option value="$PROJECT_DIR$/account/urls.py" />
         <option value="$PROJECT_DIR$/account/email-auth.py" />
-        <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/ME/urls.py" />
+        <option value="$PROJECT_DIR$/templates/account.html" />
+        <option value="$PROJECT_DIR$/account/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/ME/settings.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/ME/views.py" />
+        <option value="$PROJECT_DIR$/templates/blog.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
@@ -1058,7 +422,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ME" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -1084,27 +468,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ME" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -1202,27 +566,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1247,6 +611,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ME/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="285">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/email-auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="465">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="2610">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="240">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
@@ -1256,14 +686,6 @@
     <entry file="file://$PROJECT_DIR$/reminder/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_messages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18480493" vertical-offset="0" max-vertical-offset="487">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
@@ -1286,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9514768" vertical-offset="3059" max-vertical-offset="20340">
           <caret line="234" column="90" selection-start-line="234" selection-start-column="90" selection-end-line="234" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0159454" vertical-offset="0" max-vertical-offset="3075">
           <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6765376" vertical-offset="663" max-vertical-offset="1560">
           <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,14 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8589474" vertical-offset="87042" max-vertical-offset="87540">
           <caret line="5830" column="0" selection-start-line="5830" selection-start-column="0" selection-end-line="5830" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ME/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14677104" vertical-offset="0" max-vertical-offset="511">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1362,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/site_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20089285" vertical-offset="1755" max-vertical-offset="2325">
-          <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/apps/registry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33268103" vertical-offset="925" max-vertical-offset="6420">
@@ -1378,19 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/ME.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27061856" vertical-offset="0" max-vertical-offset="776">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09221312" vertical-offset="0" max-vertical-offset="488">
           <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,19 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#26#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#67#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,27 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08806262" vertical-offset="0" max-vertical-offset="511">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ME/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,24 +819,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/pagination/pagination.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.416667" vertical-offset="719" max-vertical-offset="2610">
-          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.12931034" vertical-offset="0" max-vertical-offset="464">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pagination/django_pagination_pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pagination/builtin_pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40563992" vertical-offset="1043" max-vertical-offset="1560">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23483366" vertical-offset="0" max-vertical-offset="511">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ME/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8453608" vertical-offset="1105" max-vertical-offset="1605">
-          <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1079" max-vertical-offset="1590">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="2070">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="660">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.375" vertical-offset="696" max-vertical-offset="1830">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26418787" vertical-offset="0" max-vertical-offset="511">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#25#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4113924" vertical-offset="0" max-vertical-offset="3120">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

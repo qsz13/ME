@@ -1,19 +1,39 @@
 from django.shortcuts import render
-from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponseRedirect
-# Create your views here.
 from emailusernames.forms import EmailUserCreationForm
+from django.contrib.auth import authenticate, login
+from django.http import HttpResponse
+
+
 
 def register(request):
-
     if request.method == 'POST':
-        print "asdfasdf"
         form = EmailUserCreationForm(request.POST)
         print form.errors
         if form.is_valid():
-            print "asdkjfhasfkj"
-            new_user = form.save()
+            form.save()
+            new_user = authenticate(username=request.POST['email'],
+                                    password=request.POST['password1'])
+            login(request, new_user)
             return HttpResponseRedirect("/")
-    else:
-        form = UserCreationForm()
-        return render(request, "/")
+        else:
+            return render(request, "/")
+
+
+def account(request):
+    return HttpResponse(render(request, 'account.html'))
+
+
+def signin(request):
+    if request.method == 'POST':
+        email = request.POST['email']
+        password = request.POST['password']
+        user = authenticate(username=email, password=password)
+        if user:
+            if user.is_active:
+                login(request, user)
+                return HttpResponseRedirect("/")
+            else:
+                return HttpResponseRedirect("/disabled_account")
+        else:
+            return HttpResponseRedirect("/invalid_login")
