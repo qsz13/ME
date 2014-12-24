@@ -36,7 +36,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account',
     'bootstrapform',
 
 )
@@ -49,12 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    "account.middleware.LocaleMiddleware",
-    "account.middleware.TimezoneMiddleware",
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = [
-    "account.context_processors.account",
     "django.contrib.auth.context_processors.auth",
 
 ]
@@ -100,4 +96,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
-ACCOUNT_ACTIVATION_DAYS = 3
+AUTHENTICATION_BACKENDS = (
+    'emailusernames.backends.EmailAuthBackend',
+    'django.contrib.auth.backends.ModelBackend',
+ )

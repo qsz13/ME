@@ -1,22 +1,14 @@
-from __future__ import unicode_literals
-
+__author__ = 'danielqiu'
 from django.conf.urls import patterns, url
+from django.views.generic import TemplateView
+from views import register
+from django.contrib.auth.views import login, logout
+from django.contrib.auth.decorators import login_required
 
-from account.views import SignupView, LoginView, LogoutView, DeleteView
-from account.views import ConfirmEmailView
-from account.views import ChangePasswordView, PasswordResetView, PasswordResetTokenView
-from account.views import SettingsView
-
-
-urlpatterns = patterns(
-    "",
-    url(r"^signup/$", SignupView.as_view(), name="account_signup"),
-    url(r"^login/$", LoginView.as_view(), name="account_login"),
-    url(r"^logout/$", LogoutView.as_view(), name="account_logout"),
-    url(r"^confirm_email/(?P<key>\w+)/$", ConfirmEmailView.as_view(), name="account_confirm_email"),
-    url(r"^password/$", ChangePasswordView.as_view(), name="account_password"),
-    url(r"^password/reset/$", PasswordResetView.as_view(), name="account_password_reset"),
-    url(r"^password/reset/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/$", PasswordResetTokenView.as_view(), name="account_password_reset_token"),
-    url(r"^settings/$", SettingsView.as_view(), name="account_settings"),
-    url(r"^delete/$", DeleteView.as_view(), name="account_delete"),
+urlpatterns = patterns('',
+   # url(r'^succes/$', TemplateView.as_view(template_name="user/succes.html")),
+    url(r'^register/$', register),
+    #url(r'^login/$', login, {'template_name': 'user/login.html'}),
+    #url(r'^logout/$', logout, {'next_page' : '/user/login'}),
+    #url(r'^profile/$', login_required(TemplateView.as_view(template_name="user/profile.html"))),
 )
