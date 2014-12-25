@@ -1,0 +1,94 @@
+
+
+{% extends "base.html" %}
+
+{% block static %}
+ <script src="/static/js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="/static/js/plugins.js"></script>
+        <script src="/static/js/main.js"></script>
+
+        <script src="/static/js/script.js"></script>
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('.loader-item').fadeOut(); // will first fade out the loading animation
+                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+            //]]>
+        </script>
+
+
+{% endblock %}
+
+
+{% block main-body %}
+<div class="modal fade" id="addImg" tabindex="-1" role="dialog" aria-labelledby="inviteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">选择图片</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="file-box">
+                              <form action="" method="post" enctype="multipart/form-data">
+                                    <input type="file" name="fileField" class="file" id="fileField" size="28" onchange="document.getElementById('textfield').value=this.value" />
+                                    <div class="form-group">
+                                        <label for="post-image" style="color: #bfc9ca;">图片</label>
+                                        <input type="file" class="form-control login-field filestyle" id="post-image" name="item-image" accept="image/*" required>
+                                    </div>
+                              </form>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">上传</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="page-wrapper">
+
+            <div class="content-wrapper">
+                <div class="inner-container container">
+                    <div class="row">
+                        <div class="section-header col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="博客名称">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="副标题">
+                            </div>
+                        </div> <!-- /.section-header -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <div class="blog-info col-md-12">
+                            <div class="box-content">
+                                <form>
+                                    <div>
+                                        <center>
+                                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#addImg" style="width:100%">
+                                                选择图片
+                                            </button>
+                                        </center>
+                                    </div>
+                                    <br>
+                                    <textarea class="form-control" rows="20" name="blog" id="blog"></textarea><br>
+                                    <div style="text-align:right">
+                                        <button type="button" class="btn btn-info" style="width:20%">
+                                            提交
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> <!-- /.blog-info -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.inner-content -->
+            </div> <!-- /.content-wrapper -->
+        </div>
+
+
+{% endblock %}

@@ -5,8 +5,8 @@
 {% block static %}
         <script src="/static/common-files/js/jquery-1.10.2.min.js"></script>
         <script src="/static/flat-ui/js/bootstrap.min.js"></script>
-        <script src="/static//common-files/js/modernizr.custom.js"></script>
-        <script src="/static//common-files/js/startup-kit.js"></script>
+        <script src="/static/common-files/js/modernizr.custom.js"></script>
+        <script src="/static/common-files/js/startup-kit.js"></script>
         <script src="/static/js/script.js"></script>
         <script src="/static/js/index.js"></script>
 
@@ -18,10 +18,10 @@
             <div class="inner-container container">
                 <div class="row">
                     <div class="section-header col-md-12">
-                        <button type="button" class="btn btn-info">
+                        <button onclick="window.location='/story/timeline';" type="button" class="btn btn-info">
                             时间轴
                         </button>
-                        <button type="button" class="btn btn-info">
+                        <button onclick="window.location='/story/write';" type="button" class="btn btn-info">
                             撰写博客
                         </button>
                     </div> <!-- /.section-header -->

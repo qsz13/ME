@@ -15,6 +15,7 @@ select,
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  
   height:100%;
 }
 a {
@@ -908,7 +909,7 @@ section * {
   color: #16a085;
 }
 .header-11 .navbar .navbar-toggle {
-  background-image: url("/static/common-files/icons/menu-icon-header-8@2x.png");
+  background-image: url("../../../common-files/icons/menu-icon-header-8@2x.png");
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;

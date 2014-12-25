@@ -1,0 +1,279 @@
+
+
+{% extends "base.html" %}
+
+{% block static %}
+ <script src="/static/js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="/static/js/plugins.js"></script>
+        <script src="/static/js/main.js"></script>
+
+        <script src="/static/js/script.js"></script>
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('.loader-item').fadeOut(); // will first fade out the loading animation
+                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+            //]]>
+        </script>
+
+
+{% endblock %}
+
+
+{% block main-body %}
+
+
+            <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="inviteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">邀请</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="时间">
+                            </div>
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="主题">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">发送</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">删除好友</h4>
+                      </div>
+                      <div class="modal-body">
+                        是否删除？
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">删除</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="addFriend" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">搜索好友</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="好友姓名">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">添加</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="page-wrapper">
+            <section id="pageloader">
+                <div class="loader-item fa fa-spin colored-border"></div>
+            </section> <!-- /#pageloader -->
+
+            <header class="header-11">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar col-sm-12" role="navigation">
+
+
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle"></button>
+                                <a class="brand" href="#"><img src="img/logo@2x.png" width="50" height="50" alt=""> “我” </a>
+                            </div>
+                            <div class="collapse navbar-collapse pull-right">
+                                <ul class="nav pull-left">
+                                    <li><a id="search-icon" class="fa fa-search" href="#search-overlay"></a></li>
+                                    <li><a href="index.html">主页</a></li>
+                                    <li><a class="active" href="#">好友</a></li>
+                                    <li><a href="blog.html">日志</a></li>
+                                    <li><a href="account.html">账户</a></li>
+                                </ul>
+                                <form class="navbar-form pull-left">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                                      登录
+                                    </button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-background"></div>
+            </header>
+
+        <!-- project-3 -->
+            <section class="projects-3">
+                <div class="container">
+                    <h3>We love what we do.
+                    <br>
+                    This is features of our products</h3>
+
+                    <div class="projects">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="img/img-2.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> 张睿</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        deadGay
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="img/img-3.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> 邱尚昭</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        我是逗比
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="img/img-4.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        阿三坎大哈速度
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(img/img-5.png);"><img alt="" src="img/img-5.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        Impressionist
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(img/img-6.png);"><img alt="" src="img/img-6.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        Pandora
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                      撰写邀请
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper ani-processed" style="">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo" style="background-image: url(img/img-7.png);"><img alt="" src="img/img-7.png" style="display: none;">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        添加好友
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#addFriend">
+                                      添加好友
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.container-->
+            </section>
+
+
+
+
+        </div>
+
+
+
+
+{% endblock %}
