@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block main-body %}
+
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="demo-row">
+                        <div class="level-title">
+                            <h3 class="demo-panel-title">当前等级:4</h3>
+                        </div>
+                        <div class="level-content">
+                            <div class="progress">
+                              <div class="progress-bar" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="inner-container container">
+                    <div class="row">
+                        <div class="section-header col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="博客名称" style="width:30%">
+                                </div>
+
+                                <div class="demo-row">
+                                    <div class="button-title">
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#color">心情</button>
+                                    </div>
+                                    <div class="demo-content">
+                                        <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                            <div class="form-control uneditable-input" data-trigger="fileinput">
+                                              <span class="fui-clip fileinput-exists"></span>
+                                              <span class="fileinput-filename"></span>
+                                            </div>
+                                            <span class="input-group-addon btn btn-default btn-file">
+                                              <span class="fileinput-new">选择图片</span>
+                                              <span class="fileinput-exists"><span class="fui-gear"></span>&nbsp;&nbsp;更换</span>
+                                              <input type="file" name="...">
+                                            </span>
+                                            <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput"><span class="fui-trash"></span>&nbsp;&nbsp;移除</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>   
+                        </div>
+                        <div class="blog-info col-md-12">
+                            <div class="box-content">
+                                <form>                 
+                                    <textarea rows="20" placeholder="" class="form-control"></textarea>
+                                    <br>
+                                    <div style="text-align:right">
+                                        <button type="button" class="btn btn-info" style="width:20%">
+                                            提交
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>            
+                        </div> <!-- /.blog-info -->  <!-- /.section-header -->
+                    </div> <!-- /.row --> <!-- /.row -->              
+                </div> <!-- /.inner-content -->
+            </div> <!-- /.content-wrapper -->
+        </div>
+        
+
+{% endblock %}
+
+{% block invisible-block %}
+     <div class="modal fade" id="color" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">心情</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="mbm">
+                                <button class="btn btn-default" data-dismiss="modal"></button>
+                                <button class="btn btn-primary" data-dismiss="modal"></button>
+                                <button class="btn btn-info" data-dismiss="modal"></button>
+                                <button class="btn btn-danger" data-dismiss="modal"></button>
+                                <button class="btn btn-success" data-dismiss="modal"></button>
+                                <button class="btn btn-warning" data-dismiss="modal"></button>
+                                <button class="btn btn-inverse" data-dismiss="modal"></button>
+                            </div>
+                      </div>
+                </div>
+          </div>
+        </div>
+{% endblock %}

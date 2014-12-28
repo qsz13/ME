@@ -5,7 +5,7 @@ from django.shortcuts import render
 def home(request):
 
     if request.user.is_authenticated():
-        return HttpResponse(render(request, 'blog.html'))
+        return HttpResponse(render(request, 'home.html'))
 
     else:
         return HttpResponse(render(request, 'index.html'))

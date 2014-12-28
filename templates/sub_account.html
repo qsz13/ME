@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block account-active %} class="active"{% endblock %}
+
+
+{% block main-body %}
+
+
+        <div class="page-wrapper">
+            <section id="pageloader">
+                <div class="loader-item fa fa-spin colored-border"></div>
+            </section> <!-- /#pageloader -->
+            
+
+        <!-- project-3 -->
+            <section class="projects-3">
+                <div class="container">
+                    
+                    <div class="projects">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="img/img-2.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> 张睿</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                    </div>
+                                    <a href="chooseBlog.html">为该用户撰写博客</a>  
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#change">
+                                      移交权限
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                      删除帐户
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo"><img src="img/img-3.png" alt="">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-eye"> </span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">
+                                        
+                                    </div>
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#addAccount">
+                                      添加子帐户
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+            </div>
+
+{% endblock %}
+
+
+{% block invisible-block %}
+
+
+        <div class="modal fade" id="addAccount" tabindex="-1" role="dialog" aria-labelledby="inviteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">注册子账户</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="姓名">
+                            </div>
+                            <div class="form-group">
+                                 <input type="password" class="form-control" placeholder="密码">
+                            </div>
+                            <div class="form-group">
+                                 <input type="password" class="form-control" placeholder="确认">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">注册</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">删除帐户</h4>
+                      </div>
+                      <div class="modal-body">
+                        是否删除？
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">删除</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="modal fade" id="change" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="inviteLabel">移交权限</h4>
+                      </div>
+                      <div class="modal-body">
+                            <div class="form-group">
+                                 <input class="form-control" type="text" placeholder="用户名">
+                            </div>
+                            <div class="form-group">
+                                 <input type="password" class="form-control" placeholder="密码">
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="button" class="btn btn-primary">移交</button>
+                      </div>
+                </div>
+          </div>
+        </div>
+{% endblock %}

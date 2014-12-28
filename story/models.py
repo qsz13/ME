@@ -9,7 +9,7 @@ class Story(models.Model):
     title = models.CharField(max_length=100)
     time = models.DateTimeField()
     content = models.TextField()
-    mood = models.ForeignKey()
+    mood = models.TextField()
 
 class Achievement(Story):
     together_with = models.TextField()

@@ -6,3 +6,41 @@ textarea {
   width: 100%;
   height:100%;
 }
+
+.level-title {
+    float: left;
+    width: 240px;
+    margin: 10px 20px 0;
+    font: 700 24.5px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.level-content {
+    float: left;
+    width: 580px;
+    margin: 35px 20px 0;
+}
+
+.friends-content {
+    float: left;
+    width: 580px;
+    margin: 20px 20px 0;
+}
+
+.button-title {
+    float: left;
+    width: 260px;
+    margin: 0px 20px 0;
+    font: 700 24.5px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.box-content {
+  background: rgb(244, 244, 244);
+  padding: 25px;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  border-top: 1px solid white;
+  background: #FFFFFF;
+  padding-bottom: 0px;
+}

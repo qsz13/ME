@@ -1,19 +1,10 @@
 {% extends "base.html" %}
 
-{% block static %}
-        <script src="/static/common-files/js/jquery-1.10.2.min.js"></script>
-        <script src="/static/flat-ui/js/bootstrap.min.js"></script>
-        <script src="/static//common-files/js/modernizr.custom.js"></script>
-        <script src="/static//common-files/js/startup-kit.js"></script>
-        <script src="/static/js/script.js"></script>
-        <script src="/static/js/index.js"></script>
-
-{% endblock %}
-
+{% block home-active %} class="active"{% endblock %}
 
 {% block main-body %}
 
- <section class="header-11-sub bg-midnight-blue">
+                <section class="header-11-sub bg-midnight-blue">
                 <div class="background">
                     &nbsp;
                 </div>
@@ -25,7 +16,7 @@
                             </p>
                             <div class="signup-form">
                                 <form action="/account/register/" method="post">
-                                     {% csrf_token %}
+
                                     <div class="form-group">
                                         <input name="email" class="form-control" type="text" placeholder="您的邮箱">
                                     </div>
@@ -40,6 +31,7 @@
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-block btn-info">注 册</button>
                                     </div>
+                                    {% csrf_token %}
                                 </form>
                             </div>
                             <div class="additional-links">
@@ -80,29 +72,12 @@
                 </div>
             </section>
 
-            <!-- footer-2 -->
-            <footer class="footer-2 bg-midnight-blue">
-                <div class="container">
-                    <nav class="pull-left">
-                        <ul>
-                            <li class="active">
-                                <a href="#">关于我们</a>
-                            </li>
 
-                        </ul>
-                    </nav>
-                    <div class="social-btns pull-right">
-                        <a href="#"><div class="fui-vimeo"></div><div class="fui-vimeo"></div></a>
-                        <a href="#"><div class="fui-facebook"></div><div class="fui-facebook"></div></a>
-                        <a href="#"><div class="fui-twitter"></div><div class="fui-twitter"></div></a>
-                    </div>
-                    <div class="additional-links">
-                        Be sure to take a look to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
-                    </div>
-                </div>
-            </footer>
-        </div>
 
+{% endblock %}
+
+
+{% block invisible-block %}
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
                 <div class="modal-content">
@@ -110,24 +85,22 @@
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title" id="myModalLabel">登录</h4>
                       </div>
-                    <form action="/account/signin/" method="post">
-                     {% csrf_token %}
-                      <div class="modal-body">
-
-                            <div class="form-group">
-                                 <input name="email" class="form-control" type="text" placeholder="邮箱">
-                            </div>
-                            <div class="form-group">
-                                 <input name="password" type="password" class="form-control" placeholder="密码">
-                            </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="submit" class="btn btn-primary">登录</button>
-                      </div>
-                    </form>
+                      <form action="/account/signin/" method="post">
+                          <div class="modal-body">
+                                <div class="form-group">
+                                     <input name="email" class="form-control" type="text" placeholder="用户名">
+                                </div>
+                                <div class="form-group">
+                                     <input name="password" type="password" class="form-control" placeholder="密码">
+                                </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="submit" class="btn btn-primary">登录</button>
+                          </div>
+                          {% csrf_token %}
+                      </form>
                 </div>
           </div>
         </div>
-
 {% endblock %}

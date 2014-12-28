@@ -4,6 +4,10 @@ from story.views import *
 
 urlpatterns = patterns('',
 
-    url(r'^timeline/', timeline),
-    url(r'^write/', write),
+    url(r'^write/$', write),
+    url(r'^write/achievement/', write_achievement),
+
+
+
+
 )

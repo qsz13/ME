@@ -37,3 +37,7 @@ def signin(request):
                 return HttpResponseRedirect("/disabled_account")
         else:
             return HttpResponseRedirect("/invalid_login")
+
+
+def sub_account(request):
+    return HttpResponse(render(request, 'sub_account.html'))

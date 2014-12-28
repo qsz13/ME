@@ -875,7 +875,7 @@ section * {
 }
 .header-11 .navbar .brand img:first-child {
   float: left;
-  margin: -10px 15px 0 0;
+  margin: -10px 15px;
 }
 .header-11 .navbar .nav > li {
   margin-left: 25px;
