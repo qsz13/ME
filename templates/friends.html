@@ -133,7 +133,7 @@
                                                 <li><a href="#">签到</a></li>
                                                 <li><a href="/account/setting/">个人信息管理</a></li>
                                                 <li class="divider"></li>
-                                                <li><a href="#">注销</a></li>
+                                                <li><a href="/account/signout/">注销</a></li>
                                             </ul>
                                     </li>
                                 </ul>
@@ -154,143 +154,180 @@
         <!-- project-3 -->
             <section class="projects-3">
                 <div class="container">
-
-                    <div class="projects">
-                        <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo"><img src="/static/img/img-2.png" alt="">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> 张睿</span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        deadGay
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
-                                      撰写邀请
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
-                                      删除好友
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo"><img src="/static/img/img-3.png" alt="">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> {{ user.username }}</span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        我是逗比
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
-                                      撰写邀请
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
-                                      删除好友
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo"><img src="/static/img/img-4.png" alt="">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> </span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        阿三坎大哈速度
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
-                                      撰写邀请
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
-                                      删除好友
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projects">
-                        <div class="project-wrapper ani-processed" style="">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo" style="background-image: url(img/img-5.png);"><img alt="" src="/static/img/img-5.png" style="display: none;">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> </span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        Impressionist
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
-                                      撰写邀请
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
-                                      删除好友
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-wrapper ani-processed" style="">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo" style="background-image: url(img/img-6.png);"><img alt="" src="/static/img/img-6.png" style="display: none;">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> </span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        Pandora
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
-                                      撰写邀请
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
-                                      删除好友
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-wrapper ani-processed" style="">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                    <div class="photo" style="background-image: url(img/img-7.png);"><img alt="" src="/static/img/img-7.png" style="display: none;">
-                                    </div>
-                                    <div class="overlay">
-                                        <span class="fui-eye"> </span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <div class="name">
-                                        添加好友
-                                    </div>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#add">
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#add">
                                       添加好友
-                                    </button>
+                    </button>
+
+
+                        {% for friend in friends %}
+                            {% if forloop.counter0|divisibleby:3 %}
+                                <div class="projects">
+                            {% endif %}
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo"><img src="/static/img/img-2.png" alt="">
+                                        </div>
+                                        <div class="overlay">
+                                            <span class="fui-eye"> {{ friend.username }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">
+                                            {{ friend.username }}
+                                        </div>
+                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">
+                                          撰写邀请
+                                        </button>
+                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                          删除好友
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            {% if forloop.counter|divisibleby:3 %}
+                                </div>
+                            {% endif %}
+                        {% empty %}
+
+                        {% endfor %}
+
+
+
+
+{#                        <div class="project-wrapper">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo"><img src="/static/img/img-2.png" alt="">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> 张睿</span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        deadGay#}
+{#                                    </div>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">#}
+{#                                      撰写邀请#}
+{#                                    </button>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">#}
+{#                                      删除好友#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{##}
+{#                        <div class="project-wrapper">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo"><img src="/static/img/img-3.png" alt="">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> {{ user.username }}</span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        我是逗比#}
+{#                                    </div>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">#}
+{#                                      撰写邀请#}
+{#                                    </button>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">#}
+{#                                      删除好友#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{##}
+{#                        <div class="project-wrapper">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo"><img src="/static/img/img-4.png" alt="">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> </span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        阿三坎大哈速度#}
+{#                                    </div>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">#}
+{#                                      撰写邀请#}
+{#                                    </button>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">#}
+{#                                      删除好友#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class="projects">#}
+{#                        <div class="project-wrapper ani-processed" style="">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo" style="background-image: url(img/img-5.png);"><img alt="" src="/static/img/img-5.png" style="display: none;">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> </span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        Impressionist#}
+{#                                    </div>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">#}
+{#                                      撰写邀请#}
+{#                                    </button>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">#}
+{#                                      删除好友#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{##}
+{#                        <div class="project-wrapper ani-processed" style="">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo" style="background-image: url(img/img-6.png);"><img alt="" src="/static/img/img-6.png" style="display: none;">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> </span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        Pandora#}
+{#                                    </div>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#invite">#}
+{#                                      撰写邀请#}
+{#                                    </button>#}
+{#                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">#}
+{#                                      删除好友#}
+{#                                    </button>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{##}
+{#                        <div class="project-wrapper ani-processed" style="">#}
+{#                            <div class="project">#}
+{#                                <div class="photo-wrapper">#}
+{#                                    <div class="photo" style="background-image: url(img/img-7.png);"><img alt="" src="/static/img/img-7.png" style="display: none;">#}
+{#                                    </div>#}
+{#                                    <div class="overlay">#}
+{#                                        <span class="fui-eye"> </span>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                                <div class="info">#}
+{#                                    <div class="name">#}
+{#                                        添加好友#}
+{#                                    </div>#}
+{##}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
                     </div>
                 </div><!--/.container-->
             </section>
@@ -337,7 +374,6 @@
                 var form = $("#inputText")
 
                 var data = form.serialize();
-                //var data = {email:text};
                   $.ajax({
                   type: "POST",
                   dataType: "json",

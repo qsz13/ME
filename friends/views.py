@@ -15,11 +15,11 @@ get_friendship_context_object_name = lambda: getattr(settings, 'FRIENDSHIP_CONTE
 
 @login_required
 def view_friends(request):
+    template_name = 'friends.html'
     user = get_object_or_404(user_model, username=request.user)
     friends = Friend.objects.friends(user)
-    print friends
     return HttpResponse(
-        render(request, 'friends.html', {get_friendship_context_object_name(): user, 'friends': friends}))
+        render(request, template_name, {get_friendship_context_object_name(): user, 'friends': friends}))
 
 
 @login_required
@@ -41,21 +41,3 @@ def add_friends(request):
 
 
 
-
-
-# @login_required
-# def friendship_add_friend(request, to_username, template_name='friendship/friend/add.html'):
-#     """ Create a FriendshipRequest """
-#     ctx = {'to_username': to_username}
-#
-#     if request.method == 'POST':
-#         to_user = user_model.objects.get(username=to_username)
-#         from_user = request.user
-#         try:
-#             Friend.objects.add_friend(from_user, to_user)
-#         except AlreadyExistsError as e:
-#             ctx['errors'] = ["%s" % e]
-#         else:
-#             return redirect('friendship_request_list')
-#
-#     return render(request, template_name, ctx)
