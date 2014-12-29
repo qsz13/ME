@@ -9,6 +9,8 @@ urlpatterns = patterns('',
 
     url(r'^$',account),
     url(r'^sub_account/$',sub_account),
+    url(r'^setting/$',setting),
+
 
 
 )

@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="shortcut icon" href="/static/flat-ui/images/favicon.ico">
-        <link rel="stylesheet" href="/static//flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="/static//flat-ui/css/flat-ui.css">
+        <link rel="stylesheet" href="/static/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/flat-ui/css/flat-ui.css">
         <!-- Using only with Flat-UI (free)-->
         <link rel="stylesheet" href="/static/./common-files/css/icon-font.css">
         <!-- end -->
@@ -36,11 +36,11 @@
                                     <li><a href="/story/write/" {% block story-active %}{% endblock %}>故事</a></li>
                                     <li><a href="/account/sub_account/" {% block account-active %}{% endblock %}>账户</a></li>
                                     <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">邱尚昭 <b class="caret"></b></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }} <b class="caret"></b></a>
                                             <span class="dropdown-arrow"></span>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#">签到</a></li>
-                                                <li><a href="personalInfo.html">个人信息管理</a></li>
+                                                <li><a href="/account/setting/">个人信息管理</a></li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">注销</a></li>
                                             </ul>
@@ -65,26 +65,28 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4">                          
+                        <div class="col-sm-4">
                             <p>
                                 注册
                             </p>
                             <div class="signup-form">
-                                <form>
+                                <form action="/account/register/" method="post">
+
                                     <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="您的邮箱">
+                                        <input name="email" class="form-control" type="text" placeholder="您的邮箱">
                                     </div>
                                     <div class="form-group">
                                         <div>
-                                            <input type="password" class="form-control" placeholder="密码">
+                                            <input name="password1" type="password" class="form-control" placeholder="密码">
                                         </div>
                                         <div>
-                                            <input type="password" class="form-control" placeholder="确认">
+                                            <input name="password2" type="password" class="form-control" placeholder="确认">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-block btn-info">注 册</button>
                                     </div>
+                                    {% csrf_token %}
                                 </form>
                             </div>
                             <div class="additional-links">
@@ -151,18 +153,21 @@
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title" id="myModalLabel">登录</h4>
                       </div>
-                      <div class="modal-body">
-                            <div class="form-group">
-                                 <input class="form-control" type="text" placeholder="用户名">
-                            </div>
-                            <div class="form-group">
-                                 <input type="password" class="form-control" placeholder="密码">
-                            </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="button" class="btn btn-primary">登录</button>
-                      </div>
+                      <form action="/account/signin/" method="post">
+                          <div class="modal-body">
+                                <div class="form-group">
+                                     <input name="email" class="form-control" type="text" placeholder="用户名">
+                                </div>
+                                <div class="form-group">
+                                     <input name="password" type="password" class="form-control" placeholder="密码">
+                                </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="submit" class="btn btn-primary">登录</button>
+                          </div>
+                          {% csrf_token %}
+                      </form>
                 </div>
           </div>
         </div>

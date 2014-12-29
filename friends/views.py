@@ -28,13 +28,14 @@ def add_friends(request):
     response_data = {}
     if request.method == 'POST':
         to_user_email = request.POST['email']
+        message = request.POST['message']
         from_user = request.user
         try:
             to_user = user_model.objects.get(username=to_user_email)
         except ObjectDoesNotExist as e:
             response_data['success'] = False
             return HttpResponse(json.dumps(response_data), content_type="application/json")
-        Friend.objects.add_friend(from_user, to_user)
+        Friend.objects.add_friend(from_user, to_user, message)
         response_data['success'] = True
         return HttpResponse(json.dumps(response_data), content_type="application/json")
 
@@ -42,19 +43,19 @@ def add_friends(request):
 
 
 
-@login_required
-def friendship_add_friend(request, to_username, template_name='friendship/friend/add.html'):
-    """ Create a FriendshipRequest """
-    ctx = {'to_username': to_username}
-
-    if request.method == 'POST':
-        to_user = user_model.objects.get(username=to_username)
-        from_user = request.user
-        try:
-            Friend.objects.add_friend(from_user, to_user)
-        except AlreadyExistsError as e:
-            ctx['errors'] = ["%s" % e]
-        else:
-            return redirect('friendship_request_list')
-
-    return render(request, template_name, ctx)
+# @login_required
+# def friendship_add_friend(request, to_username, template_name='friendship/friend/add.html'):
+#     """ Create a FriendshipRequest """
+#     ctx = {'to_username': to_username}
+#
+#     if request.method == 'POST':
+#         to_user = user_model.objects.get(username=to_username)
+#         from_user = request.user
+#         try:
+#             Friend.objects.add_friend(from_user, to_user)
+#         except AlreadyExistsError as e:
+#             ctx['errors'] = ["%s" % e]
+#         else:
+#             return redirect('friendship_request_list')
+#
+#     return render(request, template_name, ctx)

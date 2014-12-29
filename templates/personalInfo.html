@@ -34,16 +34,16 @@
                                 <div class="collapse navbar-collapse pull-right">
                                     <ul class="nav pull-left">
                                         <li><a id="search-icon" class="fa fa-search" href="#search-overlay"></a></li>
-                                        <li><a href="index.html">主页</a></li>
-                                        <li><a href="friends.html">好友</a></li>
+                                        <li><a href="/">主页</a></li>
+                                        <li><a href="/friends">好友</a></li>
                                         <li><a href="#">日志</a></li>
-                                        <li><a href="account.html" >账户</a></li>
+                                        <li><a href="/account/" >账户</a></li>
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">邱尚昭<b class="caret"></b></a>
+                                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
                                             <span class="dropdown-arrow"></span>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#">签到</a></li>
-                                                <li><a href="personalInfo.html">个人信息管理</a></li>
+                                                <li><a href="/account/setting/">个人信息管理</a></li>
                                                 <li class="divider"></li>
                                                 <li><a href="#">注销</a></li>
                                             </ul>
@@ -76,39 +76,24 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>张睿</td>
-                            <td>我想给你捡肥皂</td>
-                            <td>2014-12-27</td>
-                            <td>
-                              <div class="demo-contnent">
-                                <a href="#" class="btn btn-xs btn-primary mhm">同意</a>
-                                <a href="#" class="btn btn-xs btn-primary mhm">拒绝</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>张睿</td>
-                            <td>我想给你捡肥皂</td>
-                            <td>2014-12-27</td>
-                            <td>
-                              <div class="demo-contnent">
-                                <a href="#" class="btn btn-xs btn-primary mhm">同意</a>
-                                <a href="#" class="btn btn-xs btn-primary mhm">拒绝</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>张睿</td>
-                            <td>我想给你捡肥皂</td>
-                            <td>2014-12-27</td>
-                            <td>
-                              <div class="demo-contnent">
-                                <a href="#" class="btn btn-xs btn-primary mhm">同意</a>
-                                <a href="#" class="btn btn-xs btn-primary mhm">拒绝</a>
-                              </div>
-                            </td>
-                          </tr>
+
+                        {% for request in friendship_requests %}
+                            <tr>
+                                <td>{{ request.from_user }}</td>
+                                <td>{{ request.message }}</td>
+                                <td>2014-12-27</td>
+                                <td>
+                                  <div class="demo-contnent">
+                                    <a href="#" class="btn btn-xs btn-primary mhm">同意</a>
+                                    <a href="#" class="btn btn-xs btn-primary mhm">拒绝</a>
+                                  </div>
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td>暂无好友申请</td>
+                            </tr>
+                        {% endfor %}
                         </tbody>
                       </table>
                   </div>
