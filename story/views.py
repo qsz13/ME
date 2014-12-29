@@ -17,6 +17,33 @@ def write(request):
         return HttpResponseRedirect("/")
 
 
+def write_activityMemory(requst):
+    return HttpResponse(render(requst, 'activityMemory.html'))
+
+
 
 def write_achievement(request):
     return HttpResponse(render(request, 'write_achievement.html'))
+
+
+
+def write_growth(request):
+    return HttpResponse(render(request, 'growth.html'))
+
+
+
+
+def write_travel(request):
+    return HttpResponse(render(request, 'travel.html'))
+
+
+
+def write_meaning(request):
+    return HttpResponse(render(request, 'meaning.html'))
+
+
+
+def write_note(request):
+    return HttpResponse(render(request, 'note.html'))
+
+

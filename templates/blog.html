@@ -1,194 +1,196 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>日志</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
+        
 
-{% extends "base.html" %}
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.css">
+        <link rel="stylesheet" href="/static/css/animate.css">
+        <link rel="stylesheet" href="/static/css/templatemo-misc.css">
+        <link rel="stylesheet" href="/static/css/templatemo-style.css">
+        <link rel="stylesheet" href="/static/common-files/css/icon-font.css">
+        <link rel="stylesheet" href="/static/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/flat-ui/css/flat-ui.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="stylesheet" href="/static/css/text.css">
+        <script src="/static/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="#/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        <div id="search-overlay">
+            <a href="#search-overlay" class="close-search"><i class="fa fa-times-circle"></i></a>
+            <div class="search-form-holder">
+                <h2>输入您要查找的内容并按回车</h2>
+                <form id="search-form" action="#">
+                    <input type="search" name="s" placeholder="" autocomplete="off" />
+                 </form>
+            </div>
+        </div><!-- #search-overlay -->
+        <div class="page-wrapper">
+            <section id="pageloader">
+                <div class="loader-item fa fa-spin colored-border"></div>
+            </section> <!-- /#pageloader -->
+            
+            <header class="header-11">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar col-sm-12" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle"></button>
+                                <a class="brand" href="#"><img src="/static/img/logo@2x.png" width="100" height="50" alt=""></a>
+                            </div>
+                            <div class="collapse navbar-collapse pull-right">
+                                <ul class="nav pull-left">
+                                    <li><a href="index.html" >主页</a></li>
+                                    <li><a href="friends.html" >好友</a></li>
+                                    <li><a href="blog.html" class="active">日志</a></li>
+                                    <li><a href="account.html">账户</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">邱尚昭 <b class="caret"></b></a>
+                                        <span class="dropdown-arrow"></span>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">签到</a></li>
+                                            <li><a href="personalInfo.html">个人信息管理</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">注销</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-background"></div>
+            </header>
 
-{% block static %}
-        <script src="/static/common-files/js/jquery-1.10.2.min.js"></script>
-        <script src="/static/flat-ui/js/bootstrap.min.js"></script>
-        <script src="/static/common-files/js/modernizr.custom.js"></script>
-        <script src="/static/common-files/js/startup-kit.js"></script>
-        <script src="/static/js/script.js"></script>
-        <script src="/static/js/index.js"></script>
-
-{% endblock %}
-
-
-{% block main-body %}
- <div class="content-wrapper">
+        <div class="content-wrapper">
             <div class="inner-container container">
                 <div class="row">
                     <div class="section-header col-md-12">
-                        <button onclick="window.location='/story/timeline';" type="button" class="btn btn-info">
-                            时间轴
-                        </button>
-                        <button onclick="window.location='/story/write';" type="button" class="btn btn-info">
-                            撰写博客
-                        </button>
+                        <a href="chooseBlog.html">
+                            <button type="button" class="btn btn-info" href="chooseBlog.html">
+                                撰写博客
+                            </button>
+                        </a>
+                        
                     </div> <!-- /.section-header -->
                 </div> <!-- /.row -->
-                <div class="row">
-                    <div class="blog-masonry masonry-true">
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-1.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                <div class="projects-holder-2 row">
+                    <div class="filter-categories col-md-2 col-sm-3">
+                        <ul class="project-filter">
+                            <li class="filter" data-filter="all"><span>所有</span></li>
+                            <li class="filter" data-filter="buildings"><span>个人成就</span></li>
+                            <li class="filter" data-filter="design"><span>成长记录</span></li>
+                            <li class="filter" data-filter="architecture"><span>旅行剪影</span></li>
+                            <li class="filter" data-filter="nature"><span>活动经历</span></li>
+                            <li class="filter" data-filter="nature"><span>人生感悟</span></li>
+                            <li class="filter" data-filter="nature"><span>随笔</span></li>
+                        </ul>
+                    </div>
+                    <div class="projects-holder col-md-10 col-sm-9">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 project-item mix design">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_1.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_1.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">Keep Your Stuff Alive</a></h3>
-                                    <span class="blog-meta">10 November 2084 by Tawana</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">Lampyridae Lamps by Monica Correia</a></h2>
+                                    <p><a href="blog-single.html">Artcore</a> is free HTML5 bootstrap Collect from <b class="blue">cssmoban</b><b class="green">.com</b>. Credit goes to <a rel="nofollow" href="#">Unsplash</a> for images.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="/static/img/blog/blog-2.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                            </div> <!-- /.project-item -->
+                            <div class="col-md-6 col-sm-6 project-item mix nature">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_2.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_2.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">Brigette Brown on Umbrellas</a></h3>
-                                    <span class="blog-meta">8 November 2084 by Christina</span>
-                                    <p><a href="http://www.cssmoban.com/preview/templatemo_423_artcore">Artcore</a> is free HTML5 Collect from <b class="blue">cssmoban</b><b class="green">.com</b>. There are total 12 HTML pages. Credit goes to <a rel="nofollow" href="#">Unsplash</a> for img.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">Instant Domestic Enclosure</a></h2>
+                                    <p>Nullam a vehicula tellus. Integer sodales ante eu feugiat. Sed fermentum diam dui, id faucibus quam vehicula at.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-3.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                            </div> <!-- /.project-item -->
+                            <div class="col-md-6 col-sm-6 project-item mix architecture">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_3.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_3.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">An Open Letter to Larry Page</a></h3>
-                                    <span class="blog-meta">6 November 2084 by Michael</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">Ganado & Associates offices</a></h2>
+                                    <p>Nullam a vehicula tellus. Integer sodales ante eu feugiat. Sed fermentum diam dui, id faucibus quam vehicula at.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-4.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                            </div> <!-- /.project-item -->
+                            <div class="col-md-6 col-sm-6 project-item mix buildings">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_4.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_4.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">The Night-Side of Hospitals</a></h3>
-                                    <span class="blog-meta">4 November 2084 by George</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">St Barbara Bastion</a></h2>
+                                    <p>Nullam a vehicula tellus. Integer sodales ante eu feugiat. Sed fermentum diam dui, id faucibus quam vehicula at.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-5.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                            </div> <!-- /.project-item -->
+                            <div class="col-md-6 col-sm-6 project-item mix design">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_5.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_5.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">A Love Letter to the City</a></h3>
-                                    <span class="blog-meta">2 November 2084 by Michael</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">Drawing Out Collapse</a></h2>
+                                    <p>Nullam a vehicula tellus. Integer sodales ante eu feugiat. Sed fermentum diam dui, id faucibus quam vehicula at.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-6.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
+                            </div> <!-- /.project-item -->
+                            <div class="col-md-6 col-sm-6 project-item mix buildings architecture">
+                                <div class="project-thumb">
+                                    <img src="/static/img/projects/project_6.jpg" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="/static/img/projects/project_6.jpg" class="fancybox fa fa-expand" title="Project Title Here"></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">The Essence of a Teapot</a></h3>
-                                    <span class="blog-meta">31 October 2084 by George</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
+                                <div class="box-content project-detail">
+                                    <h2><a href="blog-single.html">St Ursula Street Apartment</a></h2>
+                                    <p>Nullam a vehicula tellus. Integer sodales ante eu feugiat. Sed fermentum diam dui, id faucibus quam vehicula at.</p>
                                 </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-7.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">Design and Violence Debate</a></h3>
-                                    <span class="blog-meta">4 November 2084 by Tawana</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-8.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">Porto Design Summer School</a></h3>
-                                    <span class="blog-meta">4 November 2084 by Christina</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="blog-thumb">
-                                <img src="img/blog/blog-9.jpg" alt="">
-                                <div class="overlay-b">
-                                    <div class="overlay-inner">
-                                        <a href="blog-single.html" class="fa fa-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-body">
-                                <div class="box-content">
-                                    <h3 class="post-title"><a href="blog-single.html">War of Streets and Houses</a></h3>
-                                    <span class="blog-meta">4 November 2084 by George</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, deleniti, id quibusdam aut optio saepe soluta tempore neque voluptatum.</p>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                    </div> <!-- /.blog-masonry -->
-                </div> <!-- /.row -->
+                            </div> <!-- /.project-item -->
+                        </div>  <!-- /.row -->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="pagination text-center">
                             <ul>
-                                <li><a href="javascript:void(0)"  class="active">1</a></li>
-                                <li><a href="javascript:void(0)" >2</a></li>
+                                <li><a href="javascript:void(0)">1</a></li>
+                                <li><a href="javascript:void(0)" class="active">2</a></li>
                                 <li><a href="javascript:void(0)">3</a></li>
                                 <li><a href="javascript:void(0)">4</a></li>
                                 <li><a href="javascript:void(0)">...</a></li>
@@ -200,4 +202,41 @@
             </div> <!-- /.inner-content -->
         </div> <!-- /.content-wrapper -->
         </div>
-{% endblock %}
+        <footer class="footer-2 bg-midnight-blue">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li class="active">
+                                <a href="aboutUs.html">关于我们</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <div class="additional-links">
+                        请阅读 <a href="aboutUs.html">使用说明</a> 以及 <a href="aboutUs.html">保密条款</a>
+                    </div>
+                </div>
+        </footer>
+        
+        <script src="/static/common-files/js/jquery-1.10.2.min.js"></script>
+        <script src="/static/flat-ui/js/bootstrap.min.js"></script>
+        <script src="/static/common-files/js/modernizr.custom.js"></script>
+        <script src="/static/common-files/js/startup-kit.js"></script>
+        <script src="/static/js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="/static/js/plugins.js"></script>
+        <script src="/static/js/main.js"></script>
+        
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('.loader-item').fadeOut(); // will first fade out the loading animation
+                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+            //]]>
+        </script>
+
+    </body>
+</html>

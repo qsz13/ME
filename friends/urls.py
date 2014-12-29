@@ -5,6 +5,6 @@ from views import *
 urlpatterns = patterns('',
 
     url(r'^$', view_friends),
-
+    url(r'^add/$', add_friends),
 
 )
