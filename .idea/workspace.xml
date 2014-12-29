@@ -2,152 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dd0c7dd-bc17-4662-879b-4cb36b78886b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/blog-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-blog/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/contact-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/contact-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/contact-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/contact-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/contact-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-contacts/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-16.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-17.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-18.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-19.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-20.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-21.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-22.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-23.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-24.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-25.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-26.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-27.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-28.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-29.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-30.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-31.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-32.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-33.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-34.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-35.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-36.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-37.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-38.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/content-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-content/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/crew-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/crew-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/crew-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/crew-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-crew/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/footer-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-footer/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-10.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-11.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-12.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-13.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-14.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-15.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-16.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-17.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-18.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-19.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-20.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-21.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-22.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-23.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-6.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-8.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/header-9.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/video/preview.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/video/preview.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-header/video/preview.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-5.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/price-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-price/less/ui-kit-styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/css/ui-kit-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/project-1.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/project-2.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/project-3.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/project-4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/project-common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/ui-kit/ui-kit-projects/less/ui-kit-styles.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/form.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/500.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/friends_new.html" afterPath="" />
@@ -155,30 +10,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pagination/django_pagination_pagination.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pagination/pagination.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aboutUs.html" afterPath="$PROJECT_DIR$/templates/aboutUs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/account.html" afterPath="$PROJECT_DIR$/templates/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/activityMemory.html" afterPath="$PROJECT_DIR$/templates/activityMemory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog-single.html" afterPath="$PROJECT_DIR$/templates/blog-single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog.html" afterPath="$PROJECT_DIR$/templates/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chooseBlog.html" afterPath="$PROJECT_DIR$/templates/chooseBlog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/choose_write_type.html" afterPath="$PROJECT_DIR$/templates/choose_write_type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/admin.py" afterPath="$PROJECT_DIR$/account/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/friends.html" afterPath="$PROJECT_DIR$/templates/friends.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/growth.html" afterPath="$PROJECT_DIR$/templates/growth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/indexLogin.html" afterPath="$PROJECT_DIR$/templates/indexLogin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/meaning.html" afterPath="$PROJECT_DIR$/templates/meaning.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/models.py" afterPath="$PROJECT_DIR$/account/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/note.html" afterPath="$PROJECT_DIR$/templates/note.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/personalInfo.html" afterPath="$PROJECT_DIR$/templates/personalInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/privateAchievement.html" afterPath="$PROJECT_DIR$/templates/privateAchievement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ME/settings.py" afterPath="$PROJECT_DIR$/ME/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sub_account.html" afterPath="$PROJECT_DIR$/templates/sub_account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/travel.html" afterPath="$PROJECT_DIR$/templates/travel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ME/urls.py" afterPath="$PROJECT_DIR$/ME/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/urls.py" afterPath="$PROJECT_DIR$/account/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/views.py" afterPath="$PROJECT_DIR$/account/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/friends/views.py" afterPath="$PROJECT_DIR$/friends/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/write_achievement.html" afterPath="$PROJECT_DIR$/templates/write_achievement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ME.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,106 +51,67 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ME/views.py">
+        <entry file="file://$PROJECT_DIR$/account/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="1355" max-vertical-offset="1860">
+              <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ME/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1740">
+              <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/friendship/views.py">
+      <file leaf-file-name="personalInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/personalInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5" vertical-offset="2478" max-vertical-offset="3855">
+              <caret line="174" column="27" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="27" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friends.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/friends.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37802607" vertical-offset="2362" max-vertical-offset="6075">
+              <caret line="171" column="88" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="88" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/urls.py">
+        <entry file="file://$PROJECT_DIR$/ME/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.875" vertical-offset="1152" max-vertical-offset="3585">
-              <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/friends/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1470">
-              <caret line="44" column="11" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.458333" vertical-offset="853" max-vertical-offset="4335">
-              <caret line="80" column="78" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="growth.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/growth.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.5" vertical-offset="75" max-vertical-offset="2955">
-              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="writeBlog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/writeBlog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.25" vertical-offset="150" max-vertical-offset="2670">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meaning.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/meaning.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3989362" vertical-offset="1903" max-vertical-offset="3240">
-              <caret line="197" column="13" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -340,14 +142,22 @@
         <option value="$PROJECT_DIR$/templates/activityMemory.html" />
         <option value="$PROJECT_DIR$/friendship/views.py" />
         <option value="$PROJECT_DIR$/templates/account.html" />
-        <option value="$PROJECT_DIR$/ME/settings.py" />
-        <option value="$PROJECT_DIR$/templates/personalInfo.html" />
         <option value="$PROJECT_DIR$/friends/views.py" />
-        <option value="$PROJECT_DIR$/templates/friends.html" />
-        <option value="$PROJECT_DIR$/account/urls.py" />
-        <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/aboutUs.html" />
+        <option value="$PROJECT_DIR$/simpleavatar/urls.py" />
+        <option value="$PROJECT_DIR$/simpleavatar/views.py" />
+        <option value="$PROJECT_DIR$/account/urls.py" />
+        <option value="$PROJECT_DIR$/awesome_avatar/fields.py" />
+        <option value="$PROJECT_DIR$/awesome_avatar/forms.py" />
+        <option value="$PROJECT_DIR$/account/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/account/admin.py" />
+        <option value="$PROJECT_DIR$/ME/settings.py" />
+        <option value="$PROJECT_DIR$/ME/urls.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/templates/personalInfo.html" />
+        <option value="$PROJECT_DIR$/account/models.py" />
+        <option value="$PROJECT_DIR$/templates/friends.html" />
       </list>
     </option>
   </component>
@@ -355,10 +165,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -419,6 +227,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -432,7 +286,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -441,11 +295,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/friends" />
       <recent name="$PROJECT_DIR$/friendship" />
       <recent name="$PROJECT_DIR$/friend" />
       <recent name="$PROJECT_DIR$/account" />
-      <recent name="$PROJECT_DIR$/story" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/old/account" />
@@ -731,12 +585,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3094959" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -747,7 +601,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24236111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3097015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3094959" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,69 +631,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Python/2.7/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6164384" vertical-offset="5099" max-vertical-offset="7215">
-          <caret line="411" column="6" selection-start-line="411" selection-start-column="6" selection-end-line="411" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/common-files/js/easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9514768" vertical-offset="3059" max-vertical-offset="20340">
-          <caret line="234" column="90" selection-start-line="234" selection-start-column="90" selection-end-line="234" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/flat-ui/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8589474" vertical-offset="87042" max-vertical-offset="87540">
-          <caret line="5830" column="0" selection-start-line="5830" selection-start-column="0" selection-end-line="5830" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33268103" vertical-offset="925" max-vertical-offset="6420">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/ME.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27061856" vertical-offset="0" max-vertical-offset="776">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="488">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09221312" vertical-offset="0" max-vertical-offset="488">
-          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23483366" vertical-offset="0" max-vertical-offset="511">
@@ -869,34 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ME/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36312848" vertical-offset="0" max-vertical-offset="537">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/story/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/write_achievement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -937,22 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friends/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sub_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="56.541668" vertical-offset="1552" max-vertical-offset="4320">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1044,7 +795,7 @@
         <state vertical-scroll-proportion="0.33244327" vertical-offset="3771" max-vertical-offset="6825">
           <caret line="268" column="52" selection-start-line="268" selection-start-column="45" selection-end-line="268" selection-end-column="52" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,16 +805,8 @@
         <state vertical-scroll-proportion="-0.4516129" vertical-offset="238" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ME/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.829222" vertical-offset="1108" max-vertical-offset="1635">
-          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,24 +815,8 @@
         <state vertical-scroll-proportion="2.1631877" vertical-offset="1200" max-vertical-offset="5250">
           <caret line="156" column="16" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="16" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/personalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.583334" vertical-offset="1042" max-vertical-offset="3900">
-          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/friends.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.083333" vertical-offset="4567" max-vertical-offset="6075">
-          <caret line="319" column="32" selection-start-line="319" selection-start-column="32" selection-end-line="319" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +833,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="2475">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1118,32 +845,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1470">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.875" vertical-offset="1152" max-vertical-offset="3585">
-          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,8 +882,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/meaning.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3989362" vertical-offset="1903" max-vertical-offset="3240">
-          <caret line="197" column="13" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
+        <state vertical-scroll-proportion="-16.333334" vertical-offset="1888" max-vertical-offset="3240">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="1917" max-vertical-offset="3585">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/note_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50695825" vertical-offset="0" max-vertical-offset="3225">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friends/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="561">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="561">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="561">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/write_achievement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3687153" vertical-offset="3108" max-vertical-offset="3645">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sub_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.480447" vertical-offset="0" max-vertical-offset="4320">
+          <caret line="232" column="42" selection-start-line="232" selection-start-column="42" selection-end-line="232" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/plugins.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.053475935" vertical-offset="0" max-vertical-offset="561">
+          <caret line="2" column="11449" selection-start-line="2" selection-start-column="11449" selection-end-line="2" selection-end-column="11449" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41354725" vertical-offset="76058" max-vertical-offset="106860">
+          <caret line="5093" column="181" selection-start-line="5093" selection-start-column="181" selection-end-line="5093" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/flat-ui-pro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="22298" max-vertical-offset="480870">
+          <caret line="1502" column="12" selection-start-line="1502" selection-start-column="12" selection-end-line="1502" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ME/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1740">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="1355" max-vertical-offset="1860">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/personalInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5" vertical-offset="2478" max-vertical-offset="3855">
+          <caret line="174" column="27" selection-start-line="174" selection-start-column="27" selection-end-line="174" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37802607" vertical-offset="2362" max-vertical-offset="6075">
+          <caret line="171" column="88" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="88" />
           <folding />
         </state>
       </provider>

@@ -157,20 +157,21 @@
               </div>
 
               <div class="tab-pane" id="tab5">
-                <form>
+                <form action="/account/setting/change" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
                     <div class="demo-row">
                       <div class="demo-title">用户头像</div>
                       <div class="demo-content">
                           <div class="fileinput fileinput-new" data-provides="fileinput">
                           <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
-                            <img data-src="holder.js/100%x100%" alt="100%x100%" src="/static/img/img-3.png" data-holder-rendered="true" style="height: 100%; width: 100%; display: block;">
+                            <img data-src="holder.js/" alt="100%x100%" src="{{ user_image.url }}" data-holder-rendered="true" style="display: block;">
                           </div>
                           <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 12px;"></div>
                           <div>
                             <span class="btn btn-primary btn-embossed btn-file">
                               <span class="fileinput-new"><span class="fui-image"></span>&nbsp;&nbsp;选择头像</span>
                               <span class="fileinput-exists"><span class="fui-gear"></span>&nbsp;&nbsp;更换</span>
-                              <input type="hidden"><input type="file" name="...">
+                              <input type="hidden"><input name="avatar" id="img-file" type="file" >
                             </span>
                             <a href="#" class="btn btn-primary btn-embossed fileinput-exists" data-dismiss="fileinput"><span class="fui-trash"></span>&nbsp;&nbsp;取消</a>
                           </div>
@@ -180,36 +181,36 @@
                     <div class="demo-row">
                         <div class="demo-title">用户名</div>
                         <div class="demo-content">
-                            <input type="text" value="" placeholder="张全蛋" class="form-control input-hg">
+                            <input name="username" type="text" placeholder="{{ user.username }}" class="form-control input-hg">
                         </div>
                     </div>
                     <div class="demo-row">
                         <div class="demo-title">手机号码</div>
                         <div class="demo-content">
-                            <input type="text" value="" placeholder="" class="form-control input-hg">
+                            <input name="phone" type="text" value="" placeholder="{{ user.profile.phone }}" class="form-control input-hg">
                         </div>
                     </div>
                     <div class="demo-row">
                         <div class="demo-title">密码</div>
                         <div class="demo-content">
-                            <input type="password" value="" placeholder="" class="form-control input-hg">
+                            <input name="password" type="password" value="" placeholder="" class="form-control input-hg">
                         </div>
                     </div>
                     <div class="demo-row">
                         <div class="demo-title">邮箱</div>
                         <div class="demo-content">
-                            542932638@qq.com
+                            {{ user.email }}
                         </div>
                     </div>
-                </form>
-                <center>
-                    <a href="" class="btn btn-lg btn-block btn-success" style="width:50%">修改</a>
+                    <center>
+                    <button type="submit" class="btn btn-lg btn-block btn-success" style="width:50%">修改</button>
                 </center>
+                </form>
+
                 
               </div>
             </div> <!-- /tab-content -->
         </div>
-
 
     <script src="/static/js/vendor/jquery.min.js"></script>
     <script src="/static/js/flat-ui-pro.js"></script>
@@ -236,11 +237,7 @@
                     {
                         location.reload();
                     }
-                    else
-                    {
-                        var output = "<br> <center> <p>该用户不存在</p> </center>";
-                        $("#user-not-exist").html(output);
-                    }
+
                     }
                   });
 
