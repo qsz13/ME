@@ -78,7 +78,7 @@
                 </div>
           </div>
         </div>
-        <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+               <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
           <div class="modal-dialog">
                 <div class="modal-content">
                       <div class="modal-header">
@@ -87,12 +87,17 @@
                       </div>
                       <div class="modal-body">
                             <div class="form-group">
-                                 <input class="form-control" type="text" placeholder="好友姓名">
+                                <form id="inputText">
+                                 <input name="email" class="form-control" type="text" placeholder="好友姓名">
+                                 {% csrf_token %}
+                                </form>
+                                <div id="user-not-exist">
+                                </div>
                             </div>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="button" class="btn btn-primary">添加</button>
+                        <button type="button" class="btn btn-primary" onclick="addfriend()">添加</button>
                       </div>
                 </div>
           </div>
@@ -324,6 +329,31 @@
                     $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
                 $('body').delay(350).css({'overflow-y':'visible'});
             })
+
+             function addfriend()
+            {
+                var form = $("#inputText")
+
+                var data = form.serialize();
+                //var data = {email:text};
+                  $.ajax({
+                  type: "POST",
+                  dataType: "json",
+                  url: "/friends/add/",
+                  data: data,
+                  success: function(result) {
+                    if(result['success'])
+                    {
+                        location.reload();
+                    }
+                    else
+                    {
+                        var output = "<br> <center> <p>该用户不存在</p> </center>";
+                        $("#user-not-exist").html(output);
+                    }
+                    }
+                  });
+            }
             //]]>
         </script>
         
