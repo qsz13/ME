@@ -7,6 +7,7 @@ from friends.models import Friend
 from django.contrib.auth import get_user_model
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
+from notifications import notify
 
 
 user_model = get_user_model()
@@ -40,4 +41,19 @@ def add_friends(request):
         return HttpResponse(json.dumps(response_data), content_type="application/json")
 
 
+@login_required
+def writing_invite(request):
+    response_data = {}
+    if request.method == 'POST':
+        to_user_id = request.POST['user_id']
+        title = request.POST['title']
+        message = request.POST['message']
+        from_user = request.user
+        to_user = user_model.objects.get(id=to_user_id)
+        print to_user.username
+
+        notify.send(from_user, recipient=to_user, verb=title,
+            description=message)
+        response_data['success'] = True
+        return HttpResponse(json.dumps(response_data), content_type="application/json")
 

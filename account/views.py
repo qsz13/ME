@@ -61,7 +61,8 @@ def setting(request):
     template_name='personalInfo.html'
     requests = Friend.objects.requests(request.user)
     user_image = request.user.profile.avatar
-    return HttpResponse(render(request, template_name, {'friendship_requests': requests, 'user_image': user_image}))
+
+    return HttpResponse(render(request, template_name, {'friendship_requests': requests, 'user_image': user_image, 'notifications': request.user.notifications.all()}))
 
 
 

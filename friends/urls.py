@@ -6,5 +6,7 @@ urlpatterns = patterns('',
 
     url(r'^$', view_friends),
     url(r'^add/$', add_friends),
+    url(r'^invite/$', writing_invite),
+
 
 )

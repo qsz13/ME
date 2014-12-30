@@ -83,10 +83,12 @@
                 <div class="row">
                     <div class="demo-row">
                         <div class="level-title">
-                            <h4 class="demo-panel-title">感谢有你们:</h3>
+                            <h4 class="demo-panel-title">感谢有你们:</h4>
                         </div>
                         <div class="friends-content">
-                            <input class="form-control" type="text" placeholder="" style="width:50%">
+                             <div class="tagsinput-primary">
+                                <input name="tagsinput-02" class="tagsinput tagsinput-typeahead input-lg"  style="display: none;">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,7 +183,39 @@
         <script src="/static/js/index.js"></script>
 
         
-        
+         <script>
+
+          var states = new Bloodhound({
+            datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.word); },
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            limit: 4,
+            local: [
+              { word: "Alabama" },
+              { word: "Alaska" },
+              { word: "Arizona" },
+              { word: "Arkansas" },
+              { word: "California" },
+              { word: "Colorado" }
+            ]
+          });
+
+          states.initialize();
+
+          $('input.tagsinput').tagsinput();
+
+          $('input.tagsinput-typeahead').tagsinput('input').typeahead(null, {
+            name: 'states',
+            displayKey: 'word',
+            source: states.ttAdapter()
+          });
+
+          $('input.typeahead-only').typeahead(null, {
+            name: 'states',
+            displayKey: 'word',
+            source: states.ttAdapter()
+          });
+
+</script>
 
     </body>
 </html>

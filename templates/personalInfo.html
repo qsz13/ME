@@ -32,14 +32,15 @@
                                 </div>
 
                                 <div class="collapse navbar-collapse pull-right">
-                                    <ul class="nav pull-left">
-                                        <li><a id="search-icon" class="fa fa-search" href="#search-overlay"></a></li>
-                                        <li><a href="/">主页</a></li>
-                                        <li><a href="/friends">好友</a></li>
-                                        <li><a href="#">日志</a></li>
-                                        <li><a href="/account/" >账户</a></li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">{{ user.username }}<b class="caret"></b></a>
+                                     {% if user.is_authenticated  %}
+
+                                <ul class="nav pull-left">
+                                    <li><a href="/" >主页</a></li>
+                                    <li><a href="/friends">好友</a></li>
+                                    <li><a href="/story/write/" >故事</a></li>
+                                    <li><a href="/account/sub_account/">账户</a></li>
+                                    <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">{{ user.username }} <b class="caret"></b></a>
                                             <span class="dropdown-arrow"></span>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#">签到</a></li>
@@ -47,8 +48,15 @@
                                                 <li class="divider"></li>
                                                 <li><a href="/account/signout/">注销</a></li>
                                             </ul>
-                                        </li>
-                                    </ul>
+                                    </li>
+                                </ul>
+                            {% else  %}
+                                <form class="navbar-form pull-left">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                                      登录
+                                    </button>
+                                </form>
+                            {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -112,6 +120,32 @@
                           </tr>
                         </thead>
                         <tbody>
+
+
+                        {% for noti in notifications %}
+                            <tr>
+                                <td>{{ noti.actor.username }}</td>
+                                <td>{{ noti.verb }}</td>
+                                <td>{{ noti.description }}</td>
+                                <td>{{ noti.timestamp }}</td>
+                                <td>
+                                  <div class="demo-contnent">
+                                    <a href="/account/setting/friends-accept/{{ request.id }}" id="async" class="btn btn-xs btn-primary mhm">同意</a>
+                                    <a href="/account/setting/friends-reject/{{ request.id }}" id="async" class="btn btn-xs btn-primary mhm">拒绝</a>
+                                  </div>
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td>暂无好友申请</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        {% endfor %}
+
+
+
+
                           <tr>
                             <td>张睿</td>
                             <td>旅行</td>
