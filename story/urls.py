@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     url(r'^write/travel', write_travel),
     url(r'^write/meaning', write_meaning),
     url(r'^write/note', write_note),
+    url(r'^view/(?P<story_id>\d+)/', view_story),
+
 
 
 

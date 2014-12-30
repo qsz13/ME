@@ -2,7 +2,7 @@
 <html lang="en"> 
     <head>
         <meta charset="utf-8">
-        <title>“个人成就”</title>
+        <title>个人成就</title>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -52,13 +52,13 @@
                         <div class="navbar col-sm-12" role="navigation">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle"></button>
-                                <a class="brand" href="#"><img src="/static/img/logo@2x.png" width="100" height="50" alt=""></a>
+                                <a class="brand" href="/"><img src="/static/img/logo@2x.png" width="100" height="50" alt=""></a>
                             </div>
                             <div class="collapse navbar-collapse pull-right">
                                 <ul class="nav pull-left">
                                     <li><a href="/" >主页</a></li>
                                     <li><a href="/friends" >好友</a></li>
-                                    <li><a href="blog.html" class="active">日志</a></li>
+                                    <li><a href="blog.html" class="active">故事</a></li>
                                     <li><a href="/account/">账户</a></li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }} <b class="caret"></b></a>
@@ -82,7 +82,7 @@
                 <div class="row">
                     <div class="demo-row">
                         <div class="level-title">
-                            <h4 class="demo-panel-title">当前等级:4</h3>
+                            <h4 class="demo-panel-title">当前等级:4</h4>
                         </div>
                         <div class="level-content">
                             <div class="progress">
@@ -94,47 +94,51 @@
                 
                 
                 <div class="inner-container container">
-                    <div class="row">
-                        <div class="section-header col-md-12 col-sm-4">
-                            <form>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="博客名称" style="width:38%">
-                                </div>
-                                <div class="form-group">
-                                        <div class="fileinput fileinput-new input-group" data-provides="fileinput" >
-                                            <div class="form-control uneditable-input" data-trigger="fileinput">
-                                              <span class="fui-clip fileinput-exists"></span>
-                                              <span class="fileinput-filename"></span>
-                                            </div>
-                                            <span class="input-group-addon btn btn-default btn-file">
-                                              <span class="fileinput-new">选择图片</span>
-                                              <span class="fileinput-exists"><span class="fui-gear"></span>&nbsp;&nbsp;更换</span>
-                                              <input type="file" name="...">
-                                            </span>
-                                            <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput"><span class="fui-trash"></span>&nbsp;&nbsp;移除</a>
-                                            <div class="col-md-4">
-                                                <button type="button" id="button1" class="btn btn-success" data-toggle="modal" data-target="#color">心情</button>
-                                            </div>
-                                        </div>
-                                        
-                                </div>
-                            
-                            </form>   
-                        </div>
-                        <div class="blog-info col-md-12">
-                            <div class="box-content">
-                                <form>                 
-                                    <textarea id="textArea" rows="20" placeholder="" class="form-control" ></textarea>
-                                    <br>
-                                    <div style="text-align:right">
-                                        <button type="button" class="btn btn-info" style="width:20%">
-                                            提交
-                                        </button>
+                    <form action="." method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="section-header col-md-12 col-sm-4">
+
+                                    <div class="form-group">
+                                        <input name="title" class="form-control" type="text" placeholder="标题" style="width:38%">
                                     </div>
-                                </form>
-                            </div>            
-                        </div> <!-- /.blog-info -->  <!-- /.section-header -->
-                    </div> <!-- /.row --> <!-- /.row -->              
+                                    <div class="form-group">
+                                            <div class="fileinput fileinput-new input-group" data-provides="fileinput" >
+                                                <div class="form-control uneditable-input" data-trigger="fileinput">
+                                                  <span class="fui-clip fileinput-exists"></span>
+                                                  <span class="fileinput-filename"></span>
+                                                </div>
+                                                <span class="input-group-addon btn btn-default btn-file">
+                                                  <span class="fileinput-new">选择图片</span>
+                                                  <span class="fileinput-exists"><span class="fui-gear"></span>&nbsp;&nbsp;更换</span>
+                                                  <input type="file" name="image">
+                                                </span>
+                                                <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput"><span class="fui-trash"></span>&nbsp;&nbsp;移除</a>
+                                                <div class="col-md-4">
+                                                    <input id="mood" name="mood" type="hidden" value="">
+                                                    <button type="button" id="button1" class="btn btn-success" data-toggle="modal" data-target="#color">心情</button>
+                                                </div>
+                                            </div>
+
+                                    </div>
+
+
+                            </div>
+                            <div class="blog-info col-md-12">
+                                <div class="box-content">
+
+                                        <textarea name="content" id="textArea" rows="20" placeholder="" class="form-control" ></textarea>
+                                        <br>
+                                        <div style="text-align:right">
+                                            <button type="submit" class="btn btn-info" style="width:20%">
+                                                提交
+                                            </button>
+                                        </div>
+                                    {% csrf_token %}
+
+                                </div>
+                            </div> <!-- /.blog-info -->  <!-- /.section-header -->
+                        </div> <!-- /.row --> <!-- /.row -->
+                    </form>
                 </div> <!-- /.inner-content -->
             </div> <!-- /.content-wrapper -->
         </div>
@@ -143,12 +147,13 @@
         function changebgc(i)
         {
             o=document.getElementById("textArea");
+            m=document.getElementById("mood");
             switch (i){
-                case '1' : o.style.color="gray"; break;
-                case '2' : o.style.color="green"; break;
-                case '3' : o.style.color="blue"; break;
-                case '4' : o.style.color="red"; break;
-                case '5' : o.style.color="orange"; break;
+                case '1' : o.style.color="gray";m.val("gray"); break;
+                case '2' : o.style.color="green";m.val("green"); break;
+                case '3' : o.style.color="blue";m.val("blue"); break;
+                case '4' : o.style.color="red";m.val("red"); break;
+                case '5' : o.style.color="orange";m.val("orange"); break;
             }
             
         }

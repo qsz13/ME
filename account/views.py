@@ -102,7 +102,8 @@ def change(request):
         user = request.user
         if 'avatar' in request.FILES:
             data = request.FILES['avatar']
-            file_path = os.path.join("avatar", str(user.id))
+            type = str.split('.',str(data))[-1]
+            file_path = os.path.join("avatar", str(user.id)+'.'+type)
             file_real_path = default_storage.save(file_path, ContentFile(data.read()))
             user.profile.avatar = file_real_path
             user.profile.save()

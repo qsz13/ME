@@ -67,10 +67,10 @@
                             {% if user.is_authenticated  %}
 
                                 <ul class="nav pull-left">
-                                    <li><a href="/" {% block home-active %}{% endblock %}>主页</a></li>
-                                    <li><a href="/friends" {% block friends-active %}{% endblock %}>好友</a></li>
-                                    <li><a href="/story/write/" {% block story-active %}{% endblock %}>故事</a></li>
-                                    <li><a href="/account/sub_account/" {% block account-active %}{% endblock %}>账户</a></li>
+                                    <li><a href="/" class="active">主页</a></li>
+                                    <li><a href="/friends" >好友</a></li>
+                                    <li><a href="/story/write/">故事</a></li>
+                                    <li><a href="/account/sub_account/">账户</a></li>
                                     <li class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ user.username }} <b class="caret"></b></a>
                                             <span class="dropdown-arrow"></span>
@@ -119,8 +119,36 @@
                             <li class="filter" data-filter="nature"><span>随笔</span></li>
                         </ul>
                     </div>
+
                     <div class="projects-holder col-md-10 col-sm-9">
                         <div class="row">
+
+                            {% for story in stories %}
+                            <div class="col-md-6 col-sm-6 project-item mix design">
+                                <div class="project-thumb">
+                                    <img src="{{ story.image.url }}" alt="">
+                                    <div class="overlay-b">
+                                        <div class="overlay-inner">
+                                            <a href="{{ story.image.url }}" class="fancybox fa fa-expand" title="{{ story.title }}"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-content project-detail">
+                                    <h2><a href="/story/view/{{ story.id }}">{{ story.title }}</a></h2>
+                                    <p>{{ story.content|slice:":100" }}...</p>
+                                </div>
+                            </div> <!-- /.project-item -->
+
+                            {% endfor %}
+
+
+
+
+
+
+
+
+
                             <div class="col-md-6 col-sm-6 project-item mix design">
                                 <div class="project-thumb">
                                     <img src="/static/img/projects/project_1.jpg" alt="">

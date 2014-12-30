@@ -39,6 +39,8 @@ INSTALLED_APPS = (
     'account',
     'friends',
     'notifications',
+    'story',
+    'model_utils',
 
 )
 

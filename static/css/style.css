@@ -899,9 +899,9 @@ section * {
   padding: 41px 0 27px;
   font-size: 14px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #eeeeee;
   font-weight: 800;
-  color: inherit;
+  /* color: inherit; */
 }
 .header-11 .navbar .nav > li > a:hover,
 .header-11 .navbar .nav > li > a:focus,
