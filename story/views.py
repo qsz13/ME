@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- #
 import os
 from django.core.files.base import ContentFile
 from django.core.files.storage import default_storage
@@ -43,7 +44,7 @@ def write_growth(request):
 
 
 
-0
+
 def write_travel(request):
     return HttpResponse(render(request, 'travel.html'))
 
@@ -66,8 +67,13 @@ def write_note(request):
 
 def view_story(request, story_id):
     if request.method=="GET":
-        story = Story.objects.filter(id=story_id).select_subclasses()
-        return HttpResponse(render(request, 'blog-single.html', {'story':story}))
+        story = Story.objects.filter(id=story_id).select_subclasses()[0]
+        type = u''
+        print isinstance(story, Achievement)
+        print story.mood
+        if isinstance(story, Achievement):
+            type = u'个人成就'
+        return HttpResponse(render(request, 'blog-single.html', {'story': story, 'type': type}))
 
 
 

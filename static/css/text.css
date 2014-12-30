@@ -44,3 +44,7 @@ textarea {
   background: #FFFFFF;
   padding-bottom: 0px;
 }
+
+.bootstrap-tagsinput .twitter-typeahead .tt-input {
+min-width: 500px;
+}

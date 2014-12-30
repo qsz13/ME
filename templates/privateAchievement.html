@@ -114,7 +114,7 @@
                                                 </span>
                                                 <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput"><span class="fui-trash"></span>&nbsp;&nbsp;移除</a>
                                                 <div class="col-md-4">
-                                                    <input id="mood" name="mood" type="hidden" value="">
+                                                    <input id="mood" name="mood" type="hidden" value="black">
                                                     <button type="button" id="button1" class="btn btn-success" data-toggle="modal" data-target="#color">心情</button>
                                                 </div>
                                             </div>
@@ -126,7 +126,7 @@
                             <div class="blog-info col-md-12">
                                 <div class="box-content">
 
-                                        <textarea name="content" id="textArea" rows="20" placeholder="" class="form-control" ></textarea>
+                                        <textarea wrap="hard" name="content" id="textArea" rows="20" placeholder="" class="form-control" ></textarea>
                                         <br>
                                         <div style="text-align:right">
                                             <button type="submit" class="btn btn-info" style="width:20%">
@@ -147,13 +147,12 @@
         function changebgc(i)
         {
             o=document.getElementById("textArea");
-            m=document.getElementById("mood");
             switch (i){
-                case '1' : o.style.color="gray";m.val("gray"); break;
-                case '2' : o.style.color="green";m.val("green"); break;
-                case '3' : o.style.color="blue";m.val("blue"); break;
-                case '4' : o.style.color="red";m.val("red"); break;
-                case '5' : o.style.color="orange";m.val("orange"); break;
+                case '1' : o.style.color="#bdc3c7";$('#mood').val("gray"); break;
+                case '2' : o.style.color="#1abc9c";$('#mood').val("green"); break;
+                case '3' : o.style.color="#3498db";$('#mood').val("blue"); break;
+                case '4' : o.style.color="#e74c3c";$('#mood').val("red"); break;
+                case '5' : o.style.color="#f1c40f";$('#mood').val("orange"); break;
             }
             
         }
