@@ -7,7 +7,7 @@ def home(request):
 
     if request.user.is_authenticated():
 
-        stories = Story.objects.filter(author=request.user).select_subclasses()
+        stories = Story.objects.filter(author=request.user).select_subclasses().order_by("-time")
 
 
 

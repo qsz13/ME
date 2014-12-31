@@ -11,18 +11,6 @@ import datetime
 def write(request):
     if request.method == "GET":
         return HttpResponse(render(request, 'choose_write_type.html'))
-    # elif request.method == "POST":
-    #     title = request.POST["title"]
-    #     content = request.POST["content"]
-    #     now = datetime.datetime.now()
-    #     mood = ""
-    #     story = Story.objects.create(title=title, content=content, time=now, mood=mood)
-    #     story.save()
-    #     return HttpResponseRedirect("/")
-
-
-def write_activityMemory(requst):
-    return HttpResponse(render(requst, 'activityMemory.html'))
 
 
 def write_achievement(request):
@@ -39,11 +27,35 @@ def write_achievement(request):
         return HttpResponseRedirect("/")
 
 
+def write_activityMemory(request):
+    if request.method=='GET':
+        return HttpResponse(render(request, 'activityMemory.html'))
+    elif request.method=='POST':
+        title = request.POST['title']
+        content = request.POST['content']
+        mood = request.POST['mood']
+        author = request.user
+        place = request.POST['place']
+        together_with = request.POST['together_with']
+        img = save_image(request)
+        Activity.objects.create_activity(author, title, content, mood, together_with, place, img)
+        return HttpResponseRedirect("/")
+
+
+
 def write_growth(request):
-    return HttpResponse(render(request, 'growth.html'))
-
-
-
+    if request.method == "GET":
+        return HttpResponse(render(request, 'growth.html'))
+    elif request.method == "POST":
+        title = request.POST['title']
+        content = request.POST['content']
+        mood = request.POST['mood']
+        author = request.user
+        age = request.POST['age']
+        weight = request.POST['weight']
+        height = request.POST['height']
+        img = save_image(request)
+        Growth.objects.create_growth(author, title, content, mood, age, weight, height, img)
 
 def write_travel(request):
     return HttpResponse(render(request, 'travel.html'))
@@ -73,6 +85,10 @@ def view_story(request, story_id):
         print story.mood
         if isinstance(story, Achievement):
             type = u'个人成就'
+        if isinstance(story, Activity):
+            type = u'活动经历'
+        if isinstance(story, Growth):
+            type = u'成长纪录'
         return HttpResponse(render(request, 'blog-single.html', {'story': story, 'type': type}))
 
 
