@@ -54,8 +54,11 @@ def write_growth(request):
         age = request.POST['age']
         weight = request.POST['weight']
         height = request.POST['height']
+        wishes = request.POST['wishes']
         img = save_image(request)
-        Growth.objects.create_growth(author, title, content, mood, age, weight, height, img)
+        Growth.objects.create_growth(author, title, content, mood, wishes, age, weight, height, img)
+        return HttpResponseRedirect("/")
+    
 
 def write_travel(request):
     return HttpResponse(render(request, 'travel.html'))

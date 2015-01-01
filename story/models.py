@@ -19,8 +19,8 @@ class ActivityManeger(models.Manager):
 
 
 class GrowthManager(models.Manager):
-    def create_growth(self, author, title, content, mood, age, weight, height, image = None):
-        growth = self.create(author=author, title=title, content=content, mood=mood, age=age,
+    def create_growth(self, author, title, content, mood, wishes, age, weight, height, image = None):
+        growth = self.create(author=author, title=title, content=content, mood=mood, wishes=wishes, age=age,
                              weight=weight, height=height, image=image)
         return growth
 
@@ -53,6 +53,7 @@ class Growth(Story):
     age = models.CharField(max_length=16)
     weight = models.CharField(max_length=16)
     height = models.CharField(max_length=16)
+    image = models.ImageField(blank=True)
     objects = GrowthManager()
 
 
