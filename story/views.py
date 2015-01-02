@@ -61,22 +61,44 @@ def write_growth(request):
 
 
 def write_travel(request):
-    return HttpResponse(render(request, 'travel.html'))
-
-
+    if request.method == "GET":
+        return HttpResponse(render(request, 'travel.html'))
+    elif request.method == "POST":
+        title = request.POST['title']
+        content = request.POST['content']
+        mood = request.POST['mood']
+        author = request.user
+        place = request.POST['place']
+        img = save_image(request)
+        Travel.objects.create_travel(author, title, content, mood, place, img)
+        return HttpResponseRedirect("/")
 
 def write_meaning(request):
     if request.method == "GET":
         return HttpResponse(render(request, 'meaning.html'))
     elif request.method == "POST":
         title = request.POST['title']
+        content = request.POST['content']
+        mood = request.POST['mood']
+        author = request.user
+        img = save_image(request)
+        Meaning.objects.create_meaning(author, title, content, mood, img)
         return HttpResponseRedirect("/")
 
 
 
 
 def write_note(request):
-    return HttpResponse(render(request, 'note.html'))
+    if request.method == "GET":
+        return HttpResponse(render(request, 'note.html'))
+    elif request.method == "POST":
+        title = request.POST['title']
+        content = request.POST['content']
+        mood = request.POST['mood']
+        author = request.user
+        img = save_image(request)
+        Note.objects.create_note(author, title, content, mood, img)
+        return HttpResponseRedirect("/")
 
 
 
