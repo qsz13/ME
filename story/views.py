@@ -114,6 +114,12 @@ def view_story(request, story_id):
             type = u'活动经历'
         if isinstance(story, Growth):
             type = u'成长纪录'
+        if isinstance(story, Travel):
+            type = u'旅行剪影'
+        if isinstance(story, Meaning):
+            type = u'人生感悟'
+        if isinstance(story, Growth):
+            type = u'随手写写'
         return HttpResponse(render(request, 'blog-single.html', {'story': story, 'type': type}))
 
 

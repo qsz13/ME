@@ -155,7 +155,7 @@
         <script src="/static/js/script.js"></script>
         <script src="/static/js/index.js"></script>
 
-        <script type="/static/text/javascript">
+        <script type="text/javascript">
         function changebgc(i)
         {
             o=document.getElementById("textArea");
@@ -202,60 +202,11 @@
 
           states.initialize();
 
-          $('input.tagsinput').tagsinput({
-    confirmKeys: [13, 32, 44]
-});
-
-          $('input.tagsinput-typeahead').tagsinput('input').typeahead(null, {
-            name: 'states',
-            displayKey: 'word',
-            source: states.ttAdapter()
-          });
-
-          $('input.typeahead-only').typeahead(null, {
-            name: 'states',
-            displayKey: 'word',
-            source: states.ttAdapter()
-          });
 
         </script>
 
 
-        <script>
 
-          var states = new Bloodhound({
-            datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.word); },
-            queryTokenizer: Bloodhound.tokenizers.whitespace,
-            limit: 4,
-            local: [
-              { word: "Alabama" },
-              { word: "Alaska" },
-              { word: "Arizona" },
-              { word: "Arkansas" },
-              { word: "California" },
-              { word: "Colorado" }
-            ]
-          });
-
-          states.initialize();
-
-          $('input.tagsinput').tagsinput({
-    confirmKeys: [13, 32, 44]
-});
-
-          $('input.tagsinput-typeahead').tagsinput('input').typeahead(null, {
-            name: 'states',
-            displayKey: 'word',
-            source: states.ttAdapter()
-          });
-
-          $('input.typeahead-only').typeahead(null, {
-            name: 'states',
-            displayKey: 'word',
-            source: states.ttAdapter()
-          });
-
-        </script>
 
     </body>
 </html>
