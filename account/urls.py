@@ -12,6 +12,8 @@ urlpatterns = patterns('',
     url(r'^setting/friends-reject/(?P<friendship_request_id>\d+)/$', friends_reject),
     url(r'^setting/friends-accept/(?P<friendship_request_id>\d+)/$', friends_accept),
     url(r'^register/$', register),
+    url(r'^register_sub/$', register_sub),
+
     url(r'^signin/$', signin),
     url(r'^signout/$', signout),
     url(r'^setting/change$', change),

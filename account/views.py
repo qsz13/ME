@@ -8,6 +8,7 @@ from django.core.files.storage import FileSystemStorage, default_storage
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect
 from ME import settings
+from account.models import Profile
 from emailusernames.forms import EmailUserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
@@ -26,6 +27,23 @@ def register(request):
             return HttpResponseRedirect("/")
         else:
             return render(request, "/")
+
+def register_sub(request):
+    if request.method == 'POST':
+        form = EmailUserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            new_user = authenticate(username=request.POST['email'],
+                                    password=request.POST['password1'])
+            new_user.profile.parent_account = request.user.profile
+            new_user.profile.save()
+            print new_user.profile.parent_account
+            return HttpResponseRedirect("/account/sub_account/")
+        else:
+            print form.error_messages
+            return HttpResponseRedirect("/account/sub_account/")
+
+
 
 
 def account(request):
@@ -53,7 +71,12 @@ def signout(request):
 
 
 def sub_account(request):
-    return HttpResponse(render(request, 'sub_account.html'))
+
+    user = request.user
+    sub = user.profile.child_account.all()
+
+
+    return HttpResponse(render(request, 'sub_account.html',{'sub_accounts':sub}))
 
 
 @login_required
