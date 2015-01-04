@@ -141,3 +141,20 @@ def change(request):
         user.save()
         user.profile.save()
         return HttpResponseRedirect("/account/setting/")
+
+
+def remove_sub(request, profile_id):
+    if request.method == "GET":
+        profile = Profile.objects.get(id=profile_id)
+        profile.parent_account = None
+        profile.save()
+    return HttpResponseRedirect("/account/sub_account/")
+
+
+
+def remove_account(request, profile_id):
+    if request.method == "GET":
+        profile = Profile.objects.get(id=profile_id)
+        profile.parent_account = None
+        profile.save()
+    return HttpResponseRedirect("/account/sub_account/")

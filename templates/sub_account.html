@@ -123,13 +123,13 @@
                                     <div class="name">
                                         <span class=""> {{ sub.user.username}}</span>
                                     </div>
-                                    <a href="chooseBlog.html">为该用户撰写博客</a>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#change">
+                                    <a href="/story/write/?userid={{ sub.user.id }}">为该用户撰写博客</a>
+                                    <a href="/account/remove_sub/{{ sub.user.profile.id }}/"><button type="button" class="btn btn-info" data-toggle="modal" >
                                       移交权限
-                                    </button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
+                                    </button></a>
+                                    <a href='/account/remove_account/{{ sub.user.profile.id }}/'><button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete">
                                       删除帐户
-                                    </button>
+                                    </button></a>
                                 </div>
                                 {% endfor %}
 

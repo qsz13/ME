@@ -17,7 +17,8 @@ urlpatterns = patterns('',
     url(r'^signin/$', signin),
     url(r'^signout/$', signout),
     url(r'^setting/change$', change),
-
+    url(r'^remove_sub/(?P<profile_id>\d+)/$',remove_sub),
+    url(r'^remove_account/(?P<profile_id>\d+)/$',remove_account),
 
 
 )

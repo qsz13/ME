@@ -7,8 +7,8 @@ from model_utils.managers import InheritanceManager
 
 
 class AchievementManager(models.Manager):
-    def create_achievement(self,author, title, content, mood, image=None):
-        achievement = self.create(author=author, title=title, content=content,mood=mood, image=image)
+    def create_achievement(self,author, title, content, mood, owner, image=None):
+        achievement = self.create(author=author, title=title, content=content, mood=mood, owner=owner, image=image)
         return achievement
 
 
@@ -53,7 +53,8 @@ class Story(models.Model):
     content = models.TextField()
     mood = models.TextField(blank=True)
     objects = InheritanceManager()
-    author = models.ForeignKey(User, blank=True)
+    author = models.ForeignKey(User, blank=True, related_name="write_story_set")
+    owner = models.ForeignKey(User, blank=True, related_name="has_story_set")
     def __unicode__(self):
         return "Achievement "+self.title
 

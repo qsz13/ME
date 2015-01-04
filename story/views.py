@@ -10,19 +10,28 @@ import datetime
 
 def write(request):
     if request.method == "GET":
-        return HttpResponse(render(request, 'choose_write_type.html'))
+        userid = request.GET.get('userid')
+        print userid
+        if userid == None:
+            userid=""
+        return HttpResponse(render(request, 'choose_write_type.html',{'userid':userid}))
 
 
 def write_achievement(request):
     if request.method == 'GET':
-        return HttpResponse(render(request, 'privateAchievement.html'))
+        userid = request.GET.get('userid')
+        if userid == None:
+            userid=""
+        return HttpResponse(render(request, 'privateAchievement.html', {'userid': userid}))
     elif request.method == 'POST':
         title = request.POST['title']
         content = request.POST['content']
         mood = request.POST['mood']
         img = save_image(request)
         author = request.user
-        Achievement.objects.create_achievement(author,title, content, mood, img)
+        owner_id = request.POST['owner']
+        owner = User.objects.get(id=owner_id)
+        Achievement.objects.create_achievement(author,title, content, mood, owner, img)
 
         return HttpResponseRedirect("/")
 
@@ -124,8 +133,6 @@ def view_story(request, story_id):
 
 
 
-
-
 def save_image(request):
     if 'image' in request.FILES:
         data = request.FILES['image']
@@ -134,4 +141,4 @@ def save_image(request):
         file_real_path = default_storage.save(file_path, ContentFile(data.read()))
         return file_real_path
     else:
-        return ""
+        return "/"
